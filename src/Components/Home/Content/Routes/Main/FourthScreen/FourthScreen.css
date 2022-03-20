@@ -1,0 +1,65 @@
+.fourth-screen{
+    height: 841px;
+    background: #E4DFC2;
+}
+
+.fourth-screen__img-man{
+    position: relative;
+    margin-top: 100px;
+}
+.fourth-screen__img-bag{
+    position: absolute;
+    z-index: 3;
+    transform: translate(-230%,142%);
+}
+.fourth-screen__row{
+    display: flex;
+    align-items: center;
+}
+.fourth-screen__info{
+    margin-left: 50px;
+    width: 726px;
+}
+.fourth-screen__info-title{
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    color: #2BA84A;
+}
+.fourth-screen__info-text{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    margin-top: 13px;
+}
+.fourth-screen__info-subtitle{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    margin-top: 15px;
+}
+.fourth-screen__info-list{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    margin: 15px 0 0 30px;
+}
+ul{
+    list-style-type: none;
+}
+.fourth-screen__info-list::before{
+    content: '●';
+    color: #2BA84A;
+    margin-right: 9px;
+}

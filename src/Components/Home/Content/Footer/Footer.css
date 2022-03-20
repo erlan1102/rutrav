@@ -1,0 +1,95 @@
+.footer{
+    width: 100%;
+    padding: 82px 0 72px;
+    background: #2D3A3A;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+}
+.footer__row{
+    display: flex;
+    column-gap: 110px;
+}
+.footer__info{
+    width: 240px;
+}
+.footer__logo-subtitle{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #E5E5E5;
+    margin-top: 23px;
+    transition: .3s;
+}
+.footer__info-title{
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2BA84A;
+}
+.footer__info-subtitle{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #E5E5E5;
+    margin-top: 23px;
+    transition: .3s;
+}
+.footer__info-subtitle:hover{
+    color: #2BA84A;
+    transition: .3s;
+}
+.footer__list-item{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #E5E5E5;
+    margin-top: 5px;
+}
+.footer__list-link{
+    color: #E5E5E5;
+    transition: .3s;
+}
+.footer__list-link:hover{
+    color: #2BA84A;
+    transition: .3s;
+}
+.footer__list-link.active{
+    color: #2BA84A;
+}
+.footer__contact{
+    display: flex;
+    align-items: center;
+}
+.footer__contact-subtitle{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #E5E5E5;
+    margin: 12px;
+    transition: .3s;
+}
+.footer__contact-subtitle:hover{
+    color: #2BA84A;
+    transition: .3s;
+}
+.footer__card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 16px 0 32px;
+}
+.footer__card-img{
+    width: 51px;
+    height: 55px;
+}

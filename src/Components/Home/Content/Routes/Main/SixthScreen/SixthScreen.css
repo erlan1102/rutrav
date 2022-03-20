@@ -1,0 +1,19 @@
+.sixth-screen{
+    background: #FAFAEB;
+    height: 491px;
+    display: flex;
+    align-items: center;
+}
+.sixth-screen__row{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.sixth-screen__title{
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    color: #2BA84A;
+}

@@ -1,0 +1,205 @@
+.perennial__items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 16px;
+    margin: 59px 20px;
+}
+.perennial__item1{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/мятлик.jpeg");
+    transition: .3s;
+}
+.perennial__item1:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item2{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/овсяница.jpeg");
+    transition: .3s;
+}
+.perennial__item2:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item3{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/райграс.jpeg");
+    transition: .3s;
+}
+.perennial__item3:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item4{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/клевер.jpeg");
+    transition: .3s
+}
+.perennial__item4:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item5{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/люцерна.jpeg");
+    transition: .3s
+}
+.perennial__item5:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item6{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/щучка.jpeg");
+    transition: .3s
+}
+.perennial__item6:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item7{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/полевица.jpeg");
+    transition: .3s
+}
+.perennial__item7:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item8{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/тимофеевка.jpg");
+    transition: .3s
+}
+.perennial__item8:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item9{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/кострец.jpeg");
+    transition: .3s
+}
+.perennial__item9:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item10{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/фестулолиум.jpeg");
+    transition: .3s
+}
+.perennial__item10:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item11{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/ежа.jpeg");
+    transition: .3s
+}
+.perennial__item11:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__item12{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../Assets/Perennial/канареечник.jpg");
+    transition: .3s;
+}
+.perennial__item12:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.perennial__text{
+    font-family: 'Oswald',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: .3s;
+    cursor: pointer;
+}
+.perennial__text:hover{
+    color: #13f600;
+    text-decoration-line: underline;
+    transition: .3s;
+}

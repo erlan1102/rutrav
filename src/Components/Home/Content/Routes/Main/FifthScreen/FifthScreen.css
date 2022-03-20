@@ -1,0 +1,95 @@
+.fifth-screen{
+    height: 989px;
+}
+.fifth-screen__title{
+    margin-top: 102px;
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    color: #2BA84A;
+}
+.fifth-screen__row{
+    display: flex;
+    column-gap: 65px;
+}
+.fifth-screen__ques-btn{
+    width: 119px;
+    height: 95px;
+    background: #2BA84A;
+    border-radius: 0 30px;
+    border: none;
+    margin: 37px 0 21px;
+}
+.fifth-screen__ques-text{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2D3A3A;
+}
+.fifth-screen__btn{
+    width: 204px;
+    height: 54px;
+    background: #FF5F01;
+    border-radius: 20px 0;
+    border: none;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 51px;
+    cursor: pointer;
+}
+.fifth-screen__order{
+    display: flex;
+    justify-content: center;
+}
+.fifth-screen__info-title{
+    margin-top: 118px;
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    color: #2BA84A;
+}
+.fifth-screen__info-subtitle{
+    margin: 17px 0 14px;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+}
+.fifth-screen__info-text{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+}
+.fifth-screen__info-list{
+    margin: 8px 0 0 20px;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+}
+ul{
+    list-style-type: none;
+}
+.fifth-screen__info-list::before{
+    content: '●';
+    color: #2BA84A;
+    margin-right: 9px;
+}

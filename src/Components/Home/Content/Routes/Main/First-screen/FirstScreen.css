@@ -1,0 +1,103 @@
+.first-screen{
+    width: 100%;
+    padding: 20px 0;
+    background: #FAFAEB;
+}
+.first-screen__row{
+    display: flex;
+    align-items: center;
+}
+.first-screen__info{
+    width: 652px;
+    height: 462px;
+    background: #FFFFFF;
+    border-radius: 200px 0;
+    z-index: 1;
+}
+.first-screen__info-title{
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #2BA84A;
+    margin: 88px 51px 12px 66px;
+}
+.first-screen__info-subtitle{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2D3A3A;
+    margin: 0 71px 38px 67px;
+}
+.first-screen__add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 63px 0 68px;
+}
+.first-screen__add-btn{
+    width: 225px;
+    height: 52px;
+    background: #FF5F01;
+    border-radius: 20px 0;
+    border: none;
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.first-screen__add-text{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #2BA84A;
+    cursor: pointer;
+    margin-right: 70px;
+}
+.first-screen__add-text:hover{
+    text-decoration-line: underline;
+}
+.first-screen__img{
+    display: flex;
+    justify-content: center;
+    width: 648px;
+    height: 610px;
+    right: 40px;
+    position: relative;
+    user-select: none;
+}
+.first-screen__img-bag{
+    position: absolute;
+    z-index: 3;
+    user-select: none;
+}
+.first-screen__img-shadow{
+    width: 171px;
+    height: 47px;
+    bottom: 38%;
+    background: #075739;
+    mix-blend-mode: multiply;
+    filter: blur(30px);
+    z-index: 4;
+    position: absolute;
+    user-select: none;
+}
+.first-screen__img-lawn{
+    position: absolute;
+    mix-blend-mode: multiply;
+    z-index: 2;
+    width: 838px;
+    top: 40px;
+    user-select: none;
+}

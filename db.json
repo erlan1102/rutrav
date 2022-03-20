@@ -1,0 +1,2518 @@
+{
+  "branded": [
+    {
+      "name": "branded",
+      "id": 1,
+      "title": "«Барский луг»",
+      "categories": "cottage",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2750,
+      "packaging": 80
+    },
+    {
+      "name": "branded",
+      "id": 2,
+      "title": "Газонная травосмесь Придорожная",
+      "categories": "cottage",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3500,
+      "packaging": 80
+    },
+    {
+      "name": "branded",
+      "id": 3,
+      "title": "Городская классик",
+      "categories": "cottage",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4150,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 4,
+      "title": "Спортивный газон",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1890,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 5,
+      "title": "Мини Грасс (Карликовый Газон)",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2700,
+      "packaging": 80
+    },
+    {
+      "name": "branded",
+      "id": 6,
+      "title": "Травосмесь Универсальная",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 100
+    },
+    {
+      "name": "branded",
+      "id": 7,
+      "title": "Газонная травосмесь Игровой газон",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 8,
+      "title": "Низкорослый газон Элеганс",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2800,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 9,
+      "title": "Травосмесь Чемпион",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2975,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 10,
+      "title": "Для укрепления откосов и склонов",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4500,
+      "packaging": 80
+    },
+    {
+      "name": "branded",
+      "id": 11,
+      "title": "Низкорослый элитарный газон Пони",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3450,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 12,
+      "title": "Изумрудный газон Баронесса",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2690,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 13,
+      "title": "Газонная травосмесь Подрядчик",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3150,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 14,
+      "title": "Травосмесь Тандем",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3450,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 15,
+      "title": "Засухоустойчивый газон Солнцепёк",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4760,
+      "packaging": 100
+    },
+    {
+      "name": "branded",
+      "id": 16,
+      "title": "Газонная травосмесь Полярник",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4590,
+      "packaging": 100
+    },
+    {
+      "name": "branded",
+      "id": 17,
+      "title": "Северная",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "name": "branded",
+      "id": 18,
+      "title": "Звёздная ночь",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4070,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 19,
+      "title": "Газон для ленивых Емеля",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2790,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 20,
+      "title": "Травосмесь Северное Сияние",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3090,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 21,
+      "title": "Canada Green (Канада грин)",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2100,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 22,
+      "title": "Теневой газон",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4600,
+      "packaging": 100
+    },
+    {
+      "name": "branded",
+      "id": 23,
+      "title": "Партерный газон Гномео",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3490,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 24,
+      "title": "Смесь трав для озеленения Полярная ночь",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2890,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 25,
+      "title": "Спортивный газон PRO Спорт",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3500,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 26,
+      "title": "Русская усадьба",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2890,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 27,
+      "title": "Газонная травосмесь Оптимал",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2390,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 28,
+      "title": "Зимостойкая, высокодекоративная травосмесь Ямал",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 8700,
+      "packaging": 100
+    },
+    {
+      "name": "branded",
+      "id": 29,
+      "title": "Травосмесь для низкорослого газона Гольф",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3490,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 30,
+      "title": "Универсальная Премиум",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2990,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 31,
+      "title": "Южный парк",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2450,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 32,
+      "title": "Многокомпонентная универсальная смесь Шишкин лес",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2990,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 33,
+      "title": "Газонная травосмесь Каракумы",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2450,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 34,
+      "title": "Тёмные аллеи",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2690,
+      "packaging": 1
+    },
+    {
+      "name": "branded",
+      "id": 35,
+      "title": "Газонная травосмесь Парковый газон",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4600,
+      "packaging": 100
+    },
+    {
+      "name": "branded",
+      "id": 36,
+      "title": "Микрогазон PYGMAEUS",
+      "categories": "branded",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3990,
+      "packaging": 1
+    }
+  ],
+  "cottage": [
+    {
+      "id": 1,
+      "title": "«Мини Грасс (Карликовый Газон)»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4150,
+      "packaging": 1
+    },
+    {
+      "id": 2,
+      "title": "Низкорослый газон «Элеганс»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3720,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Изумрудный газон Баронесса",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3530,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "Травосмесь Тандем",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Звёздная ночь",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5560,
+      "packaging": 1
+    },
+    {
+      "id": 6,
+      "title": "Газон для ленивых «Емеля»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3720,
+      "packaging": 1
+    },
+    {
+      "id": 7,
+      "title": "Canada Green (Канада грин)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2535,
+      "packaging": 1
+    },
+    {
+      "id": 8,
+      "title": "Партерный газон «Гномео»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "«Русская усадьба»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3900,
+      "packaging": 1
+    },
+    {
+      "id": 10,
+      "title": "Газонная травосмесь «Оптимал» (Орнаментал)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3170,
+      "packaging": 1
+    },
+    {
+      "id": 11,
+      "title": "«Универсальная Премиум»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4025,
+      "packaging": 1
+    },
+    {
+      "id": 12,
+      "title": "Многокомпонентная универсальная смесь «Шишкин лес»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4025,
+      "packaging": 1
+    },
+    {
+      "id": 13,
+      "title": "Тёмные аллеи",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    },
+    {
+      "id": 14,
+      "title": "Микрогазон PYGMAEUS",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5380,
+      "packaging": 1
+    },
+    {
+      "id": 15,
+      "title": "«Барский луг»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2750,
+      "packaging": 1
+    }
+  ],
+  "undersized": [
+    {
+      "id": 1,
+      "title": "«Мини Грасс (Карликовый Газон)»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4150,
+      "packaging": 1
+    },
+    {
+      "id": 2,
+      "title": "Низкорослый газон «Элеганс»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3720,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Низкорослый элитарный газон «Пони»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "Травосмесь Тандем",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Звёздная ночь",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5560,
+      "packaging": 1
+    },
+    {
+      "id": 6,
+      "title": "Газон для ленивых «Емеля»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3720,
+      "packaging": 1
+    },
+    {
+      "id": 7,
+      "title": "Партерный газон «Гномео»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 8,
+      "title": "Травосмесь для низкорослого газона «Гольф»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "Тёмные аллеи",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    }
+  ],
+  "sports": [
+    {
+      "id": 1,
+      "title": "«Городская классик»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 2,
+      "title": "Спортивный газон",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2535,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Травосмесь «Универсальная»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 4,
+      "title": "Газонная травосмесь «Игровой газон»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7780,
+      "packaging": 100
+    },
+    {
+      "id": 5,
+      "title": "Травосмесь Чемпион",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4025,
+      "packaging": 1
+    },
+    {
+      "id": 6,
+      "title": "Низкорослый элитарный газон «Пони»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 7,
+      "title": "Травосмесь Тандем",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 8,
+      "title": "Газонные травосмесь «Спортивный Южный»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3400,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "Спортивный газон «PRO Спорт»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4760,
+      "packaging": 1
+    },
+    {
+      "id": 10,
+      "title": "Газонная травосмесь «Оптимал» (Орнаментал)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3170,
+      "packaging": 1
+    },
+    {
+      "id": 11,
+      "title": "Травосмесь для низкорослого газона «Гольф»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    }
+  ],
+  "universal": [
+    {
+      "id": 1,
+      "title": "«Городская классик»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 2,
+      "title": "Спортивный газон",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2535,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Травосмесь «Универсальная»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 4,
+      "title": "«Для укрепления откосов и склонов»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4500,
+      "packaging": 80
+    },
+    {
+      "id": 5,
+      "title": "Пастбищная Универсальная Многокомпонентная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7875,
+      "packaging": 80
+    },
+    {
+      "id": 6,
+      "title": "Сенокосная универсальная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 80
+    },
+    {
+      "id": 7,
+      "title": "Canada Green (Канада грин)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2535,
+      "packaging": 1
+    },
+    {
+      "id": 8,
+      "title": "Газонная травосмесь «Оптимал» (Орнаментал)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3170,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "«Универсальная Премиум»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4025,
+      "packaging": 1
+    },
+    {
+      "id": 10,
+      "title": "Многокомпонентная универсальная смесь «Шишкин лес»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4025,
+      "packaging": 1
+    },
+    {
+      "id": 11,
+      "title": "«Барский луг»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2760,
+      "packaging": 1
+    }
+  ],
+  "noryegrass": [
+    {
+      "id": 1,
+      "title": "«Мини Грасс (Карликовый Газон)»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4150,
+      "packaging": 1
+    },
+    {
+      "id": 2,
+      "title": "Низкорослый газон «Элеганс»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3720,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Низкорослый элитарный газон «Пони»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "Травосмесь Тандем",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Засухоустойчивый газон Солнцепёк",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7450,
+      "packaging": 100
+    },
+    {
+      "id": 6,
+      "title": "Газонная травосмесь «Полярник»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7150,
+      "packaging": 100
+    },
+    {
+      "id": 7,
+      "title": "Газон для ленивых «Емеля»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7150,
+      "packaging": 1
+    },
+    {
+      "id": 8,
+      "title": "Партерный газон «Гномео»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "«Смесь трав для озеленения «Полярная ночь»»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3900,
+      "packaging": 1
+    },
+    {
+      "id": 10,
+      "title": "Зимостойкая, высокодекоративная травосмесь «Ямал»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 14670,
+      "packaging": 100
+    },
+    {
+      "id": 11,
+      "title": "«Универсальная Премиум»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4025,
+      "packaging": 1
+    },
+    {
+      "id": 12,
+      "title": "«Южный парк»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3290,
+      "packaging": 1
+    },
+    {
+      "id": 13,
+      "title": "Газонная травосмесь «Каракумы»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3290,
+      "packaging": 1
+    },
+    {
+      "id": 14,
+      "title": "Тёмные аллеи",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    },
+    {
+      "id": 15,
+      "title": "Микрогазон PYGMAEUS",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5380,
+      "packaging": 1
+    }
+  ],
+  "shade-tolerant": [
+    {
+      "id": 1,
+      "title": "Изумрудный газон Баронесса",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    },
+    {
+      "id": 2,
+      "title": "Газон для ленивых «Емеля»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3720,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Газонная травосмесь для северных регионов «СеверГрин»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "Теневой газон",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7150,
+      "packaging": 100
+    },
+    {
+      "id": 5,
+      "title": "Тёмные аллеи",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    }
+  ],
+  "urban": [
+    {
+      "id": 1,
+      "title": "«Городская классик»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 2,
+      "title": "Травосмесь «Универсальная»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 3,
+      "title": "«Для укрепления откосов и склонов»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4500,
+      "packaging": 80
+    },
+    {
+      "id": 4,
+      "title": "Газонная травосмесь «Подрядчик»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2700,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Засухоустойчивый газон Солнцепёк",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7450,
+      "packaging": 100
+    },
+    {
+      "id": 6,
+      "title": "Газонная травосмесь «Полярник»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7150,
+      "packaging": 100
+    },
+    {
+      "id": 7,
+      "title": "Северная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 8,
+      "title": "Газонная трава Метеор",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "Теневой газон",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7150,
+      "packaging": 100
+    },
+    {
+      "id": 10,
+      "title": "«Южный парк»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3290,
+      "packaging": 1
+    },
+    {
+      "id": 11,
+      "title": "Газонная травосмесь «Аэродромная»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3190,
+      "packaging": 1
+    },
+    {
+      "id": 12,
+      "title": "Газонная травосмесь Парковый газон",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7150,
+      "packaging": 100
+    }
+  ],
+  "roadside": [
+    {
+      "id": 1,
+      "title": "Газонная травосмесь «Придорожная»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3125,
+      "packaging": 80
+    },
+    {
+      "id": 2,
+      "title": "Травосмесь «Универсальная»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 3,
+      "title": "«Для укрепления откосов и склонов»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4500,
+      "packaging": 80
+    },
+    {
+      "id": 4,
+      "title": "Северная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    }
+  ],
+  "fly": [
+    {
+      "id": 1,
+      "title": "Газонная травосмесь «Аэродромная»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3190,
+      "packaging": 1
+    }
+  ],
+  "north": [
+    {
+      "id": 1,
+      "title": "Газонная травосмесь «Полярник»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7150,
+      "packaging": 100
+    },
+    {
+      "id": 2,
+      "title": "Северная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 3,
+      "title": "Травосмесь «Северное Сияние»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4150,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "Газонная травосмесь для северных регионов «СеверГрин»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Смесь трав для озеленения «Полярная ночь»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3900,
+      "packaging": 1
+    },
+    {
+      "id": 6,
+      "title": "Газонная травосмесь «Оптимал» (Орнаментал)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3170,
+      "packaging": 1
+    },
+    {
+      "id": 7,
+      "title": "Зимостойкая, высокодекоративная травосмесь «Ямал»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 14675,
+      "packaging": 100
+    },
+    {
+      "id": 8,
+      "title": "Тёмные аллеи",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    }
+  ],
+  "south": [
+    {
+      "id": 1,
+      "title": "Засухоустойчивый газон Солнцепёк",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7450,
+      "packaging": 100
+    },
+    {
+      "id": 2,
+      "title": "Газонные травосмесь «Спортивный Южный»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3400,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Газонная травосмесь «Оптимал» (Орнаментал)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3470,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "«Южный парк»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3290,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Газонная травосмесь «Каракумы»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3290,
+      "packaging": 1
+    }
+  ],
+  "reclamation": [
+    {
+      "id": 1,
+      "title": "«Для укрепления откосов и склонов»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4500,
+      "packaging": 80
+    },
+    {
+      "id": 2,
+      "title": "Травосмесь по Вашему заказу",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 0,
+      "packaging": 1
+    }
+  ],
+  "unpretentious": [
+    {
+      "id": 1,
+      "title": "Спортивный газон",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2535,
+      "packaging": 1
+    },
+    {
+      "id": 2,
+      "title": "Травосмесь «Универсальная»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 3,
+      "title": "Газонная травосмесь «Игровой газон»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7780,
+      "packaging": 100
+    },
+    {
+      "id": 4,
+      "title": "Изумрудный газон Баронесса",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Газонная травосмесь «Полярник»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7150,
+      "packaging": 100
+    },
+    {
+      "id": 6,
+      "title": "Северная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4250,
+      "packaging": 80
+    },
+    {
+      "id": 7,
+      "title": "Газонная травосмесь для северных регионов «СеверГрин»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3535,
+      "packaging": 1
+    },
+    {
+      "id": 8,
+      "title": "Canada Green (Канада грин)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2535,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "Смесь трав для озеленения «Полярная ночь»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3900,
+      "packaging": 1
+    }
+  ],
+  "stalls": [
+    {
+      "id": 1,
+      "title": "Низкорослый элитарный газон «Пони»",
+      "category": "stalls",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 2,
+      "title": "Травосмесь Тандем",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Партерный газон «Гномео»",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4640,
+      "packaging": 1
+    }
+  ],
+  "cheap": [
+    {
+      "id": 1,
+      "title": "Травосмесь Городская Универсальная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/500/300_180_1/snimok_ekrana_2020_11_24_v_12_00_16.png",
+      "price": 3250,
+      "packaging": 200
+    },
+    {
+      "id": 1,
+      "title": "Газон Универсальный альтернативный",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/500/300_180_1/snimok_ekrana_2020_11_24_v_12_00_16.png",
+      "price": 3150,
+      "packaging": 200
+    }
+  ],
+  "perennial": [
+    {
+      "id": 1,
+      "title": "Микроклевер Евромик DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2425,
+      "packaging": 1
+    },
+    {
+      "id": 2,
+      "title": "Райграс пастбищный. Сорт Темпрано. Германия DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 760,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Овсяница красная красная - Festuca rubra.",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 920,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "Мятлик луговой. Сорт Маркус. Германия DSV",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1380,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Полевица побегоносная. DLF. сорт Кроми",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1480,
+      "packaging": 1
+    },
+    {
+      "id": 6,
+      "title": "Овсяница овечья сорт Борнито, DSV германия",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1100,
+      "packaging": 1
+    },
+    {
+      "id": 7,
+      "title": "Овсяница овечья Сорт Риду. Дания DLF",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 640,
+      "packaging": 1
+    },
+    {
+      "id": 8,
+      "title": "Овсяница красная волосистая - Festuca rubra trichophylla. Сорт Кэтрин. DSV Германия",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "Мятлик луговой. Сорт Лимузине. Германия DSV",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1960,
+      "packaging": 1
+    },
+    {
+      "id": 10,
+      "title": "Райграс пастбищный. Сорт Везувий. Германия DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 11,
+      "title": "Клевер белый (ползучий) сорт Лифлекс. Германия DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1620,
+      "packaging": 1
+    },
+    {
+      "id": 12,
+      "title": "Райграс пастбищный. Сорт Турфсун. Германия, DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 870,
+      "packaging": 1
+    },
+    {
+      "id": 13,
+      "title": "Овсяница красная жёсткая - Festuca Rubra Commutata. Сорт Джоанна.",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 14,
+      "title": "Мятлик луговой Сорт Санрей (Sunray), Германия DSV",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 700,
+      "packaging": 1
+    },
+    {
+      "id": 15,
+      "title": "Клевер белый (ползучий) сорт Ривендел. DLF",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1540,
+      "packaging": 1
+    },
+    {
+      "id": 16,
+      "title": "Овсяница красная сорт Audubon (Аудубон)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1420,
+      "packaging": 1
+    },
+    {
+      "id": 17,
+      "title": "Мятлик луговой. Сорт Юлиус. DLF, Дания",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1190,
+      "packaging": 1
+    },
+    {
+      "id": 18,
+      "title": "Микроклевер Пиполина DLF Trifolium",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1100,
+      "packaging": 1
+    },
+    {
+      "id": 19,
+      "title": "Райграс пастбищный. Сорт Евродиамант. Германия DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 20,
+      "title": "Овсяница тростниковая - Festuca arundinacea. сорт Меандре, DSV Германия",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 900,
+      "packaging": 1
+    },
+    {
+      "id": 21,
+      "title": "Райграс пастбищный. Сорт Турфголд. Германия, DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 870,
+      "packaging": 1
+    },
+    {
+      "id": 22,
+      "title": "Овсяница тростниковая сорт Старлетт",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 900,
+      "packaging": 1
+    },
+    {
+      "id": 23,
+      "title": "Cемена клевера белого ползучего для газонов, 1 кг",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1320,
+      "packaging": 1
+    },
+    {
+      "id": 24,
+      "title": "Двукисточник (Канареечник) тростниковый",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 360,
+      "packaging": 1
+    },
+    {
+      "id": 25,
+      "title": "Мятлик луговой сорт Award (Эворд)",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 28000,
+      "packaging": 1
+    },
+    {
+      "id": 26,
+      "title": "Овсяница красная жёсткая - Festuca Rubra Commutata. Сорт Оливия.",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 27,
+      "title": "Овсяница красная красная. Festuca rubra rubra. Сорт Релевант",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 490,
+      "packaging": 1
+    },
+    {
+      "id": 28,
+      "title": "Семена люцерны",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 730,
+      "packaging": 1
+    },
+    {
+      "id": 29,
+      "title": "Дешампсия (Щучка Дернистая)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 30,
+      "title": "Овсяница красная красная - Festuca rubra rubra. DLF, Дания. сорт Росинанта",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 600,
+      "packaging": 1
+    },
+    {
+      "id": 31,
+      "title": "Овсяница красная красная - Festuca rubra rubra. DLF, Дания. сорт Реверент",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 600,
+      "packaging": 1
+    },
+    {
+      "id": 32,
+      "title": "Овсяница красная красная - Festuca rubra rubra. DSV Германия сорт Ливизион",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1190,
+      "packaging": 572
+    },
+    {
+      "id": 33,
+      "title": "Клевер красный (луговой) - ТгifоIium ргаtеnsе",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 440,
+      "packaging": 1
+    },
+    {
+      "id": 34,
+      "title": "Тимофеевка луговая - Phleum pratense",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 380,
+      "packaging": 1
+    },
+    {
+      "id": 35,
+      "title": "Кострец безостый РФ - Bromopsis inermis",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 6200,
+      "packaging": 100
+    },
+    {
+      "id": 36,
+      "title": "Полевица тонкая Pennington Seed",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 37,
+      "title": "Фестулолиум - Festulolium. Сорт ВИК-90. Первая репродукция",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4650,
+      "packaging": 80
+    },
+    {
+      "id": 38,
+      "title": "Ежа сборная - Dactylis glomerata",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4000,
+      "packaging": 100
+    },
+    {
+      "id": 39,
+      "title": "Райграс однолетний - Lolium multiflorum",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 3380,
+      "packaging": 80
+    },
+    {
+      "id": 40,
+      "title": "Мятлик луговой сорт Nu Glade (Ню Глэйд)",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 27000,
+      "packaging": 1
+    },
+    {
+      "id": 41,
+      "title": "Овсяница красная красная - Festuca rubra rubra. DLF, Дания. сорт Максима1",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 540,
+      "packaging": 1
+    },
+    {
+      "id": 42,
+      "title": "Райграс многолетний (пастбищный) - Lolium perenne. Сорт ВИК -66",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4650,
+      "packaging": 80
+    },
+    {
+      "id": 43,
+      "title": "Мятлик луговой сорт Sun Beam (Сан Бим)",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 16200,
+      "packaging": 1
+    },
+    {
+      "id": 44,
+      "title": "Райграс пастбищный. Сорт Либронко. Германия DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 490,
+      "packaging": 1
+    },
+    {
+      "id": 45,
+      "title": "Мятлик луговой сорт Impact (Импакт)",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 27000,
+      "packaging": 1
+    },
+    {
+      "id": 46,
+      "title": "Мятлик луговой сорт Everest (Эверест)",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 19500,
+      "packaging": 1
+    },
+    {
+      "id": 47,
+      "title": "Мятлик луговой сорт BlueChip (Блючип)",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 2400,
+      "packaging": 1
+    },
+    {
+      "id": 48,
+      "title": "Райграс пастбищный. Сорт Промото. Германия DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 780,
+      "packaging": 1
+    },
+    {
+      "id": 49,
+      "title": "Овсяница красная волосистая - Festuca rubra trichophylla. Сорт Джевелин",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 50,
+      "title": "Мятлик луговой. Сорт Миракл. DLF, Дания",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 900,
+      "packaging": 1
+    },
+    {
+      "id": 51,
+      "title": "Райграс пастбищный - сорт Goalkeeper II, Jaklin seeds",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 500,
+      "packaging": 2000
+    },
+    {
+      "id": 52,
+      "title": "Мятлик луговой. Сорт Гейша, DLF, Дания",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 10500,
+      "packaging": 80
+    },
+    {
+      "id": 53,
+      "title": "Мятлик луговой. Сорт Геронимо. DLF, Дания",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 800,
+      "packaging": 1
+    },
+    {
+      "id": 54,
+      "title": "Мятлик луговой. Сорт Цептор. Германия DSV",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1930,
+      "packaging": 572
+    },
+    {
+      "id": 55,
+      "title": "Овсяница тростниковая США. Pennington Seed",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 56,
+      "title": "Мятлик луговой. Сорт Лимаги. Германия DSV",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 860,
+      "packaging": 1
+    },
+    {
+      "id": 57,
+      "title": "Мятлик луговой. Сорт Собра. Германия DSV",
+      "category": "bluegrass",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1500,
+      "packaging": 572
+    },
+    {
+      "id": 58,
+      "title": "Овсяница красная жесткая - Festuca rubra commutata. DSV Германия. сорт Ливиста",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 59,
+      "title": "Райграс пастбищный - сорт Top Gun II, Jaklin seeds",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 15000,
+      "packaging": 1
+    },
+    {
+      "id": 60,
+      "title": "Овсяница красная красная, сорт Бореал 20 кг",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 6200,
+      "packaging": 100
+    },
+    {
+      "id": 61,
+      "title": "Райграс пастбищный США. Pennington Seed",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 1025,
+      "packaging": 1
+    },
+    {
+      "id": 62,
+      "title": "Райграс пастбищный. Сорт Эсквайр.Дания DLF",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 520,
+      "packaging": 1
+    },
+    {
+      "id": 63,
+      "title": "Райграс пастбищный. Сорт Прана. Германия DSV",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4000,
+      "packaging": 80
+    },
+    {
+      "id": 64,
+      "title": "Овсяница луговая - Festuca pratensis",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4650,
+      "packaging": 80
+    },
+    {
+      "id": 65,
+      "title": "Овсяница тростниковая, сорт Ольшанка 20 кг",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 4500,
+      "packaging": 100
+    }
+  ],
+  "sowing": [
+    {
+      "id": 1,
+      "title": "Гидромикс акваграсс (Aquagrass) Старт 4 кг",
+      "imageUrl": "https://img4.goodfon.ru/original/320x480/6/1a/green-grass-summer-gazon-fon-trava-zelenaia.jpg",
+      "price": 1225,
+      "packaging": 200
+    },
+    {
+      "id": 2,
+      "title": "Гидромикс акваграсс (Aquagrass) СТАНДАРТ 4 КГ",
+      "imageUrl": "https://img4.goodfon.ru/original/320x480/6/1a/green-grass-summer-gazon-fon-trava-zelenaia.jpg",
+      "price": 1880,
+      "packaging": 200
+    },
+    {
+      "id": 3,
+      "title": "Семена трав для гидропосева",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/7f1/300_180_1/7f1c373f81134b3614756e8e9b8aa50a.jpg",
+      "price": 140,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "Целюлозная мульча",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/7f1/300_180_1/7f1c373f81134b3614756e8e9b8aa50a.jpg",
+      "price": 1300,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Гидромикс акваграсс (Aquagrass) БАЗИС 4 кг",
+      "imageUrl": "https://img4.goodfon.ru/original/320x480/6/1a/green-grass-summer-gazon-fon-trava-zelenaia.jpg",
+      "price": 1560,
+      "packaging": 200
+    }
+  ],
+  "related": [
+    {
+      "id": 1,
+      "title": "Спанбонд СУФ 17",
+      "imageUrl": "https://images.wbstatic.net/big/new/10670000/10673075-1.jpg",
+      "price": 135,
+      "packaging": 10
+    },
+    {
+      "id": 2,
+      "title": "Гербицид Торнадо, ВР",
+      "imageUrl": "https://nino.rusgrass.ru/wa-data/public/shop/products/16/18/1816/images/2406/2406.970.png.webp",
+      "price": 60,
+      "packaging": 110
+    },
+    {
+      "id": 3,
+      "title": "Удобрение Fertikа газонное весна-лето",
+      "imageUrl": "https://fertika.com/upload/iblock/685/68549adc49134e705c16025fe194103b.png",
+      "price": 500,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "Bona Forte Газонное весна-лето",
+      "imageUrl": "https://rusgrass.ru/wa-data/public/shop/products/25/00/25/images/3403/3403.750x0.png",
+      "price": 500,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Спанбонд СУФ 30",
+      "imageUrl": "https://images.wbstatic.net/big/new/10670000/10673075-1.jpg",
+      "price": 170,
+      "packaging": 10
+    },
+    {
+      "id": 6,
+      "title": "Bona Forte ЖКУ для открытого грунта газонное 1,5л (жидкие)",
+      "imageUrl": "https://greendekor.ru/upload/phpthumb/1/86727ff3a98b2087964317dc9ae1c209.jpg",
+      "price": 435,
+      "packaging": 1
+    },
+    {
+      "id": 7,
+      "title": "Лонтрел-300 Д, ВР",
+      "imageUrl": "https://rusgrass.ru/wa-data/public/shop/products/39/00/39/images/1066/1066.580@2x.png",
+      "price": 2000,
+      "packaging": 14
+    },
+    {
+      "id": 8,
+      "title": "Газонное удобрение Fertika (Осень)",
+      "imageUrl": "https://fertika.com/upload/iblock/7e2/7e2988159d5045dabdac56a2750d7aa1.png",
+      "price": 550,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "Спанбонд СУФ 42",
+      "imageUrl": "https://images.wbstatic.net/big/new/10670000/10673075-1.jpg",
+      "price": 280,
+      "packaging": 10
+    },
+    {
+      "id": 10,
+      "title": "Спанбонд СУФ 60",
+      "imageUrl": "https://images.wbstatic.net/big/new/10670000/10673075-1.jpg",
+      "price": 350,
+      "packaging": 10
+    },
+    {
+      "id": 11,
+      "title": "Bona Forte Газонное лето-осень (5 кг)",
+      "imageUrl": "https://rusgrass.ru/wa-data/public/shop/products/26/00/26/images/3447/3447.262.png.webp",
+      "price": 700,
+      "packaging": 1
+    },
+    {
+      "id": 12,
+      "title": "Раундап, ВР, Производство Monsanto",
+      "imageUrl": "https://gazonov.com/images/product/l/9215fca.jpg",
+      "price": 1950,
+      "packaging": 1
+    },
+    {
+      "id": 13,
+      "title": "Гербицид Торнадо-540 (10 литров)",
+      "imageUrl": "https://www.avgust.com/upload/iblock/e54/e549a8c55102586d7881cea57d1a6463.png",
+      "price": 10400,
+      "packaging": 1
+    },
+    {
+      "id": 14,
+      "title": "Удобрение YaraMila газонное осень (5 кг)",
+      "imageUrl": "https://rusgrass.ru/wa-data/public/shop/products/42/14/1442/images/3429/3429.750x0.png",
+      "price": 535,
+      "packaging": 1
+    },
+    {
+      "id": 15,
+      "title": "Удобрение YaraMila газонное весна-лето (5 кг)",
+      "imageUrl": "https://static.cdek.market/images/market/d71283d291b25b9e61865e11d8800073.png",
+      "price": 545,
+      "packaging": 1
+    },
+    {
+      "id": 16,
+      "title": "Гранулиованное газонное удобрение с Bona Forte (5 кг)",
+      "imageUrl": "https://cdn1.ozone.ru/multimedia/c1200/1023322511.jpg",
+      "price": 645,
+      "packaging": 1
+    },
+    {
+      "id": 17,
+      "title": "Гербицид Торнадо-500 (10 литров)",
+      "imageUrl": "https://fermercenter.com/image/data/Avgust/Tornado%2010l.png",
+      "price": 9240,
+      "packaging": 10
+    },
+    {
+      "id": 18,
+      "title": "Гербицид Торнадо (10 литров)",
+      "imageUrl": "https://fermercenter.com/image/data/Avgust/Tornado%2010l.png",
+      "price": 7060,
+      "packaging": 10
+    },
+    {
+      "id": 19,
+      "title": "Деймос, ВРК газон",
+      "imageUrl": "https://dacha.avgust.com/upload/resize_cache/iblock/b11/350_550_2/dkiighrn6ukgo5dizokvh1svlj4jhgra.jpg",
+      "price": 320,
+      "packaging": 1
+    },
+    {
+      "id": 20,
+      "title": "Гербицид избирательного действия Отличник",
+      "imageUrl": "https://rusgrass.ru/wa-data/public/shop/products/80/01/180/images/2602/2602.580@2x.png",
+      "price": 14,
+      "packaging": 1
+    },
+    {
+      "id": 21,
+      "title": "Гидрогель для растений Аквасин",
+      "imageUrl": "https://gidrostore.ru/image/cache/catalog/tovar/SUBSTRATY/gidrogel/gidrogel1-min-500x580.png",
+      "price": 600,
+      "packaging": 100
+    },
+    {
+      "id": 22,
+      "title": "Bona Forte Удобрение пролонгированное Газонное с цеолитами от Мха 5 кг",
+      "imageUrl": "https://cdn1.ozone.ru/multimedia/c1200/1023401820.jpg",
+      "price": 500,
+      "packaging": 1
+    },
+    {
+      "id": 23,
+      "title": "Спанбонд СУФ 60 Черный",
+      "imageUrl": "https://gazonov.com/images/product/s/35106a45.jpg",
+      "price": 260,
+      "packaging": 10
+    },
+    {
+      "id": 24,
+      "title": "Монофосфат калия (Отеч.) P2O5-52%, K2O-34,5%",
+      "imageUrl": "https://images.wbstatic.net/c516x688/new/12940000/12940885-1.jpg",
+      "price": 4500,
+      "packaging": 5
+    },
+    {
+      "id": 25,
+      "title": "Монофосфат калия (Бельг.) P2O5-52%, K2O-34,5%",
+      "imageUrl": "https://images.wbstatic.net/c516x688/new/12940000/12940885-1.jpg",
+      "price": 6250,
+      "packaging": 12
+    },
+    {
+      "id": 26,
+      "title": "Линтур Сингента, Швейцария",
+      "imageUrl": "https://rusgrass.ru/wa-data/public/shop/products/42/00/42/images/1067/1067.970.png",
+      "price": 35,
+      "packaging": 1
+    },
+    {
+      "id": 27,
+      "title": "Феровит Стимулятор фотосинтеза",
+      "imageUrl": "http://akim-agro.ru/images/ferovit1.png",
+      "price": 10,
+      "packaging": 500
+    }
+  ],
+  "fodder": [
+    {
+      "id": 1,
+      "title": "Пастбищная травосмесь для лошадей Табун (25 кг)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 11750,
+      "packaging": 80
+    },
+    {
+      "id": 2,
+      "title": "Пастбищная травосмесь для гусей (25 кг)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 14325,
+      "packaging": 80
+    },
+    {
+      "id": 3,
+      "title": "Кормовая травосмесь для кроликов (25 кг)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 12550,
+      "packaging": 80
+    },
+    {
+      "id": 4,
+      "title": "Пастбищная Классическая 2",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7600,
+      "packaging": 80
+    },
+    {
+      "id": 5,
+      "title": "Семена люцерны",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 730,
+      "packaging": 1
+    },
+    {
+      "id": 6,
+      "title": "Травосмесь Пастбищная для Альпак и Овец",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 12550,
+      "packaging": 80
+    },
+    {
+      "id": 7,
+      "title": "Комбинированная кормовая травосмесь",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 80
+    },
+    {
+      "id": 8,
+      "title": "Пастбищная Экстра",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 6950,
+      "packaging": 80
+    },
+    {
+      "id": 9,
+      "title": "Пастбищная Злаковая",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 80
+    },
+    {
+      "id": 10,
+      "title": "Пастбищная Универсальная Многокомпонентная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7875,
+      "packaging": 80
+    },
+    {
+      "id": 11,
+      "title": "Пастбищная Классическая 1",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7750,
+      "packaging": 80
+    },
+    {
+      "id": 12,
+      "title": "Сенокосная универсальная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 80
+    },
+    {
+      "id": 13,
+      "title": "Сенокосная злаковая",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 80
+    },
+    {
+      "id": 14,
+      "title": "Сенокосная южная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5500,
+      "packaging": 80
+    },
+    {
+      "id": 15,
+      "title": "Сенокосная классическая",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5125,
+      "packaging": 80
+    },
+    {
+      "id": 16,
+      "title": "Травосмесь Сенокосно-силосная кормовая",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5125,
+      "packaging": 80
+    }
+  ],
+  "senokos": [
+    {
+      "id": 1,
+      "title": "Кормовая травосмесь для кроликов (25 кг)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 12550,
+      "packaging": 80
+    },
+    {
+      "id": 2,
+      "title": "Сенокосная универсальная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 80
+    },
+    {
+      "id": 3,
+      "title": "Сенокосная злаковая",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 80
+    },
+    {
+      "id": 4,
+      "title": "Сенокосная южная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5500,
+      "packaging": 80
+    },
+    {
+      "id": 5,
+      "title": "Сенокосная классическая",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5125,
+      "packaging": 80
+    },
+    {
+      "id": 6,
+      "title": "Травосмесь Сенокосно-силосная кормовая",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5125,
+      "packaging": 80
+    }
+  ],
+  "combined": [
+    {
+      "name": "combined",
+      "id": 1,
+      "title": "Пастбищная травосмесь для гусей (25 кг)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 14325,
+      "packaging": 80
+    },
+    {
+      "name": "combined",
+      "id": 2,
+      "title": "Комбинированная кормовая травосмесь",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 80
+    }
+  ],
+  "pasture": [
+    {
+      "id": 1,
+      "title": "Пастбищная травосмесь для лошадей Табун (25 кг)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 11750,
+      "packaging": 80
+    },
+    {
+      "id": 2,
+      "title": "Пастбищная травосмесь для гусей (25 кг)",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 14325,
+      "packaging": 80
+    },
+    {
+      "id": 3,
+      "title": "Пастбищная Классическая 2",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7600,
+      "packaging": 80
+    },
+    {
+      "id": 4,
+      "title": "Травосмесь Пастбищная для Альпак и Овец",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 12550,
+      "packaging": 80
+    },
+    {
+      "id": 5,
+      "title": "Пастбищная Экстра",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 6950,
+      "packaging": 80
+    },
+    {
+      "id": 6,
+      "title": "Пастбищная Злаковая",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 5000,
+      "packaging": 80
+    },
+    {
+      "id": 7,
+      "title": "Пастбищная Универсальная Многокомпонентная",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7875,
+      "packaging": 80
+    },
+    {
+      "id": 8,
+      "title": "Пастбищная Классическая 1",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 7750,
+      "packaging": 80
+    }
+  ],
+  "alfalfa": [
+    {
+      "id": 1,
+      "title": "Семена люцерны",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+      "price": 730,
+      "packaging": 1
+    }
+  ],
+  "fertilizers": [
+    {
+      "id": 1,
+      "title": "Удобрение Fertikа газонное весна-лето",
+      "imageUrl": "https://fertika.com/upload/iblock/685/68549adc49134e705c16025fe194103b.png",
+      "price": 500,
+      "packaging": 1
+    },
+    {
+      "id": 2,
+      "title": "Bona Forte Газонное весна-лето",
+      "imageUrl": "https://rusgrass.ru/wa-data/public/shop/products/25/00/25/images/3403/3403.750x0.png",
+      "price": 500,
+      "packaging": 1
+    },
+    {
+      "id": 3,
+      "title": "Bona Forte ЖКУ для открытого грунта газонное 1,5л (жидкие)",
+      "imageUrl": "https://greendekor.ru/upload/phpthumb/1/86727ff3a98b2087964317dc9ae1c209.jpg",
+      "price": 435,
+      "packaging": 1
+    },
+    {
+      "id": 4,
+      "title": "Газонное удобрение Fertika (Осень)",
+      "imageUrl": "https://fertika.com/upload/iblock/7e2/7e2988159d5045dabdac56a2750d7aa1.png",
+      "price": 550,
+      "packaging": 1
+    },
+    {
+      "id": 5,
+      "title": "Bona Forte Газонное лето-осень (5 кг)",
+      "imageUrl": "https://rusgrass.ru/wa-data/public/shop/products/26/00/26/images/3447/3447.262.png.webp",
+      "price": 700,
+      "packaging": 1
+    },
+    {
+      "id": 6,
+      "title": "Удобрение YaraMila газонное осень (5 кг)",
+      "imageUrl": "https://rusgrass.ru/wa-data/public/shop/products/42/14/1442/images/3429/3429.750x0.png",
+      "price": 535,
+      "packaging": 1
+    },
+    {
+      "id": 7,
+      "title": "Удобрение YaraMila газонное весна-лето (5 кг)",
+      "imageUrl": "https://static.cdek.market/images/market/d71283d291b25b9e61865e11d8800073.png",
+      "price": 545,
+      "packaging": 1
+    },
+    {
+      "id": 8,
+      "title": "Гранулиованное газонное удобрение с Bona Forte (5 кг)",
+      "imageUrl": "https://cdn1.ozone.ru/multimedia/c1200/1023322511.jpg",
+      "price": 645,
+      "packaging": 1
+    },
+    {
+      "id": 9,
+      "title": "Bona Forte Удобрение пролонгированное Газонное с цеолитами от Мха 5 кг",
+      "imageUrl": "https://cdn1.ozone.ru/multimedia/c1200/1023401820.jpg",
+      "price": 500,
+      "packaging": 1
+    },
+    {
+      "id": 10,
+      "title": "Монофосфат калия (Отеч.) P2O5-52%, K2O-34,5%",
+      "imageUrl": "https://images.wbstatic.net/c516x688/new/12940000/12940885-1.jpg",
+      "price": 4500,
+      "packaging": 5
+    },
+    {
+      "id": 11,
+      "title": "Монофосфат калия (Бельг.) P2O5-52%, K2O-34,5%",
+      "imageUrl": "https://images.wbstatic.net/c516x688/new/12940000/12940885-1.jpg",
+      "price": 6250,
+      "packaging": 12
+    },
+    {
+      "id": 12,
+      "title": "Феровит Стимулятор фотосинтеза",
+      "imageUrl": "http://akim-agro.ru/images/ferovit1.png",
+      "price": 10,
+      "packaging": 500
+    }
+  ],
+  "all": [
+      {
+        "name": "branded",
+        "id": 1,
+        "title": "«Барский луг»",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2750,
+        "packaging": 80
+      },
+      {
+        "name": "branded",
+        "id": 2,
+        "title": "Газонная травосмесь Придорожная",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 3500,
+        "packaging": 80
+      },
+      {
+        "name": "branded",
+        "id": 3,
+        "title": "Городская классик",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 4150,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 4,
+        "title": "Спортивный газон",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 1890,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 5,
+        "title": "Мини Грасс (Карликовый Газон)",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2700,
+        "packaging": 80
+      },
+      {
+        "name": "branded",
+        "id": 6,
+        "title": "Травосмесь Универсальная",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 4250,
+        "packaging": 100
+      },
+      {
+        "name": "branded",
+        "id": 7,
+        "title": "Газонная травосмесь Игровой газон",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 5000,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 8,
+        "title": "Низкорослый газон Элеганс",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2800,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 9,
+        "title": "Травосмесь Чемпион",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2975,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 10,
+        "title": "Для укрепления откосов и склонов",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 4500,
+        "packaging": 80
+      },
+      {
+        "name": "branded",
+        "id": 11,
+        "title": "Низкорослый элитарный газон Пони",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 3450,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 12,
+        "title": "Изумрудный газон Баронесса",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2690,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 13,
+        "title": "Газонная травосмесь Подрядчик",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 3150,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 14,
+        "title": "Травосмесь Тандем",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 3450,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 15,
+        "title": "Засухоустойчивый газон Солнцепёк",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 4760,
+        "packaging": 100
+      },
+      {
+        "name": "branded",
+        "id": 16,
+        "title": "Газонная травосмесь Полярник",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 4590,
+        "packaging": 100
+      },
+      {
+        "name": "branded",
+        "id": 17,
+        "title": "Северная",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 4250,
+        "packaging": 80
+      },
+      {
+        "name": "branded",
+        "id": 18,
+        "title": "Звёздная ночь",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 4070,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 19,
+        "title": "Газон для ленивых Емеля",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2790,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 20,
+        "title": "Травосмесь Северное Сияние",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 3090,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 21,
+        "title": "Canada Green (Канада грин)",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2100,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 22,
+        "title": "Теневой газон",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 4600,
+        "packaging": 100
+      },
+      {
+        "name": "branded",
+        "id": 23,
+        "title": "Партерный газон Гномео",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 3490,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 24,
+        "title": "Смесь трав для озеленения Полярная ночь",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2890,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 25,
+        "title": "Спортивный газон PRO Спорт",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 3500,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 26,
+        "title": "Русская усадьба",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2890,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 27,
+        "title": "Газонная травосмесь Оптимал",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2390,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 28,
+        "title": "Зимостойкая, высокодекоративная травосмесь Ямал",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 8700,
+        "packaging": 100
+      },
+      {
+        "name": "branded",
+        "id": 29,
+        "title": "Травосмесь для низкорослого газона Гольф",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 3490,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 30,
+        "title": "Универсальная Премиум",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2990,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 31,
+        "title": "Южный парк",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2450,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 32,
+        "title": "Многокомпонентная универсальная смесь Шишкин лес",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2990,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 33,
+        "title": "Газонная травосмесь Каракумы",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2450,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 34,
+        "title": "Тёмные аллеи",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 2690,
+        "packaging": 1
+      },
+      {
+        "name": "branded",
+        "id": 35,
+        "title": "Газонная травосмесь Парковый газон",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 4600,
+        "packaging": 100
+      },
+      {
+        "name": "branded",
+        "id": 36,
+        "title": "Микрогазон PYGMAEUS",
+        "categories": "branded",
+        "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/57e/300_180_1/meshok_rt.jpg",
+        "price": 3990,
+        "packaging": 1
+      },
+      {
+      "name": "cheap",
+      "id": 37,
+      "title": "Травосмесь Городская Универсальная",
+      "categories": "cheap",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/500/300_180_1/snimok_ekrana_2020_11_24_v_12_00_16.png",
+      "price": 3250,
+      "packaging": 200
+    },
+      {
+      "name": "cheap",
+      "id": 38,
+      "title": "Газон Универсальный альтернативный",
+      "categories": "cheap",
+      "imageUrl": "https://rutrav.ru/upload/resize_cache/iblock/500/300_180_1/snimok_ekrana_2020_11_24_v_12_00_16.png",
+      "price": 3150,
+      "packaging": 200
+    }
+    ]
+}
