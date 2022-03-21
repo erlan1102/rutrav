@@ -3,7 +3,7 @@ import LawnsCategory from "../SortItem/LawnsCategory";
 
 const Cheap = () => {
     return (
-        <LawnsCategory title='Дешевые травосмеси' path='cheap' wrap='уп'/>
+        <LawnsCategory title='Дешевые травосмеси' path='cheap'/>
     );
 };
 

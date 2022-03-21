@@ -3,7 +3,7 @@ import axios from "axios";
 import Bunny from '../../../../../../Assets/logo/hare.png'
 import {Link} from "react-router-dom";
 
-const SortItem = ({path, wrap}) => {
+const SortItem = ({path}) => {
     const [search, setSearch] = useState([]);
     useEffect(()=> {
         axios(`http://localhost:8080/${path}`)
@@ -12,14 +12,12 @@ const SortItem = ({path, wrap}) => {
     return (
         <div className='route__row'>
             {
-                search.map((item)=> (
+                search.map((item)=>(
                     <div className='route__box'>
-                        <Link to='/product-item'>
-                            <img className='route__box-img' src={item.imageUrl} alt="Lawn"/>
-                            <p className='route__box-title'>{item.title}</p>
-                            <p className='route__box-price'>от {item.price} ₽ / {wrap}</p>
-                            <p className='route__box-pack'>от {item.packaging} <span className='route__bottom-span'>/ {wrap}</span></p>
-                        </Link>
+                        <img className='route__box-img' src={item.imageUrl} alt="Lawn"/>
+                        <Link to='product-item'><p className='route__box-title'>{item.title}</p></Link>
+                        <p className='route__box-price'>от {item.price}</p>
+                        <p className='route__box-pack'>от {item.packaging}</p>
                     </div>
                 ))
             }

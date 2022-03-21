@@ -8,36 +8,36 @@ import Articles from "./Routes/RouteContent/Articles/Articles";
 import Payment from "./Routes/RouteContent/Payment/Payment";
 import Express from "./Routes/RouteContent/Express/Express";
 import Contact from "./Routes/RouteContent/Contact/Contact";
-import Branded from "./Routes/Lawns/Branded/Branded";
+import Branded from "./Routes/Lawns/Component/Branded/Branded";
 import Cheap from "./Routes/Lawns/Component/Cheap";
 import Order from "./Routes/RouteContent/Order/Order";
-import Cottage from "./Routes/Lawns/Component/Cottage";
-import Undersized from "./Routes/Lawns/Component/Undersized";
-import Sports from "./Routes/Lawns/Component/Sports";
-import Universal from "./Routes/Lawns/Component/Universal";
-import Noryegrass from "./Routes/Lawns/Component/Noryegrass";
-import ShadeTolerant from "./Routes/Lawns/Component/Shade-tolerant";
-import Urban from "./Routes/Lawns/Component/Urban";
-import Roadside from "./Routes/Lawns/Component/Roadside";
-import Fly from "./Routes/Lawns/Component/Fly";
-import North from "./Routes/Lawns/Component/North";
-import South from "./Routes/Lawns/Component/South";
-import Reclamation from "./Routes/Lawns/Component/Reclamation";
-import Unpretentious from "./Routes/Lawns/Component/Unpretentious";
-import Stalls from "./Routes/Lawns/Component/Stalls";
-import Perennial from "./Routes/Lawns/Perennial/Perennial";
-import Sowing from "./Routes/Lawns/Sowing/Sowing";
-import Related from "./Routes/Lawns/Related/Related";
-import Fodder from "./Routes/Lawns/Fodder/Fodder";
-import Fertilizers from "./Routes/Lawns/Fertilizers/Fertilizers";
+import Cottage from "./Routes/Lawns/Component/Branded/Cottage";
+import Undersized from "./Routes/Lawns/Component/Branded/Undersized";
+import Sports from "./Routes/Lawns/Component/Branded/Sports";
+import Universal from "./Routes/Lawns/Component/Branded/Universal";
+import Noryegrass from "./Routes/Lawns/Component/Branded/Noryegrass";
+import ShadeTolerant from "./Routes/Lawns/Component/Branded/Shade-tolerant";
+import Urban from "./Routes/Lawns/Component/Branded/Urban";
+import Roadside from "./Routes/Lawns/Component/Branded/Roadside";
+import Fly from "./Routes/Lawns/Component/Branded/Fly";
+import North from "./Routes/Lawns/Component/Branded/North";
+import South from "./Routes/Lawns/Component/Branded/South";
+import Reclamation from "./Routes/Lawns/Component/Branded/Reclamation";
+import Unpretentious from "./Routes/Lawns/Component/Branded/Unpretentious";
+import Stalls from "./Routes/Lawns/Component/Branded/Stalls";
+import Perennial from "./Routes/Lawns/Component/Perennial/Perennial";
+import Sowing from "./Routes/Lawns/Component/Sowing";
+import Related from "./Routes/Lawns/Component/Related";
+import Fodder from "./Routes/Lawns/Component/Fodder/Fodder";
+import Fertilizers from "./Routes/Lawns/Component/Fertilizers/Fertilizers";
 import Product from "./Routes/Lawns/SortItem/Product";
 import ProductItem from "./Routes/Lawns/Product-Item/Product-Item";
 import Catalog from "./Routes/Lawns/Catalog/Catalog";
-import Senokos from "./Routes/Lawns/Component/Senokos";
-import Combined from "./Routes/Lawns/Component/Combined";
-import Pasture from "./Routes/Lawns/Component/Pasture";
-import Alfalfa from "./Routes/Lawns/Component/Alfalfa";
-import Bluegrass from "./Routes/Lawns/Component/Bluegrass";
+import Senokos from "./Routes/Lawns/Component/Fodder/Senokos";
+import Combined from "./Routes/Lawns/Component/Fodder/Combined";
+import Pasture from "./Routes/Lawns/Component/Fodder/Pasture";
+import Alfalfa from "./Routes/Lawns/Component/Fodder/Alfalfa";
+import Bluegrass from "./Routes/Lawns/Component/Perennial/Bluegrass";
 
 const Content = () => {
     return (
@@ -51,32 +51,32 @@ const Content = () => {
                     <Route path='/express' element={<Express/>}/>
                     <Route path='/contact' element={<Contact/>}/>
                     <Route path='/catalog' element={<Catalog/>}/>
-                    <Route path='/branded' element={<Branded/>}/>
                     <Route path='/cheap' element={<Cheap/>}/>
                     <Route path='/order' element={<Order/>}/>
-                    <Route path='/cottage' element={<Cottage/>}/>
-                    <Route path='/undersized' element={<Undersized/>}/>
-                    <Route path='/sports' element={<Sports/>}/>
-                    <Route path='/universal' element={<Universal/>}/>
-                    <Route path='/noryegrass' element={<Noryegrass/>}/>
-                    <Route path='/shade-tolerant' element={<ShadeTolerant/>}/>
-                    <Route path='/urban' element={<Urban/>}/>
-                    <Route path='/roadside' element={<Roadside/>}/>
-                    <Route path='/fly' element={<Fly/>}/>
-                    <Route path='/north' element={<North/>}/>
-                    <Route path='/south' element={<South/>}/>
-                    <Route path='/reclamation' element={<Reclamation/>}/>
-                    <Route path='/unpretentious' element={<Unpretentious/>}/>
-                    <Route path='/stalls' element={<Stalls/>}/>
+                    <Route path='/branded' element={<Branded/>}/>
+                    <Route path='/branded/cottage' element={<Cottage/>}/>
+                    <Route path='/branded/undersized' element={<Undersized/>}/>
+                    <Route path='/branded/sports' element={<Sports/>}/>
+                    <Route path='/branded/universal' element={<Universal/>}/>
+                    <Route path='/branded/noryegrass' element={<Noryegrass/>}/>
+                    <Route path='/branded/shade-tolerant' element={<ShadeTolerant/>}/>
+                    <Route path='/branded/urban' element={<Urban/>}/>
+                    <Route path='/branded/roadside' element={<Roadside/>}/>
+                    <Route path='/branded/fly' element={<Fly/>}/>
+                    <Route path='/branded/north' element={<North/>}/>
+                    <Route path='/branded/south' element={<South/>}/>
+                    <Route path='/branded/reclamation' element={<Reclamation/>}/>
+                    <Route path='/branded/unpretentious' element={<Unpretentious/>}/>
+                    <Route path='/branded/stalls' element={<Stalls/>}/>
                     <Route path='/perennial' element={<Perennial/>}/>
+                    <Route path='/perennial/bluegrass' element={<Bluegrass/>}/>
                     <Route path='/sowing' element={<Sowing/>}/>
                     <Route path='/related' element={<Related/>}/>
                     <Route path='/fodder' element={<Fodder/>}/>
-                    <Route path='/senokos' element={<Senokos/>}/>
-                    <Route path='/combined' element={<Combined/>}/>
-                    <Route path='/pasture' element={<Pasture/>}/>
-                    <Route path='/alfalfa' element={<Alfalfa/>}/>
-                    <Route path='/bluegrass' element={<Bluegrass/>}/>
+                    <Route path='/fodder/senokos' element={<Senokos/>}/>
+                    <Route path='/fodder/combined' element={<Combined/>}/>
+                    <Route path='/fodder/pasture' element={<Pasture/>}/>
+                    <Route path='/fodder/alfalfa' element={<Alfalfa/>}/>
                     <Route path='/fertilizers' element={<Fertilizers/>}/>
                     <Route path='/product' element={<Product/>}/>
                     <Route path='/product-item' element={<ProductItem/>}/>

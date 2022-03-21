@@ -42,10 +42,10 @@ const Header = () => {
                                     all.filter((item)=> item.title.toUpperCase().toLowerCase().includes(searchVal)).map((item,idx)=> (
                                     <li key={idx} className='header__list-item'>
                                         <div className='header__list-info'>
-                                            <Link to={`${item.categories}/product/${item.id}`} className='header__list-title' onClick={searchVal}>
-                                                <img className='header__list-img' src={item.imageUrl} alt=""/>
+                                            <img className='header__list-img' src={item.imageUrl} alt=""/>
+                                            <Link to={`${item.categories}/product/${item.id}`} onClick={searchVal}>
                                                 <p className='header__list-title'>{item.title}</p>
-                                                <p className='header__list-price'>от {item.price} ₽ / {item.packaging} уп</p>
+                                                <p className='header__list-price'>от {item.price}</p>
                                             </Link>
                                         </div>
                                     </li>

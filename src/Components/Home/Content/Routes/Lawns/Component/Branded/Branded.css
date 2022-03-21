@@ -1,0 +1,250 @@
+.branded__items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 16px;
+    margin: 59px 20px;
+}
+.branded__item1{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg.png");
+    transition: .3s;
+}
+.branded__item1:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item2{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background: #2BA84A;
+    transition: .3s;
+}
+.branded__item2:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item3{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (1).png");
+    transition: .3s;
+}
+.branded__item3:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item4{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (2).png");
+    transition: .3s
+}
+.branded__item4:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item5{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (3).png");
+    transition: .3s
+}
+.branded__item5:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item6{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (4).png");
+    transition: .3s
+}
+.branded__item6:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item7{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (5).png");
+    transition: .3s
+}
+.branded__item7:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item8{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (6).png");
+    transition: .3s
+}
+.branded__item8:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item9{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (7).png");
+    transition: .3s
+}
+.branded__item9:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item10{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (8).png");
+    transition: .3s
+}
+.branded__item10:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item11{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (9).png");
+    transition: .3s
+}
+.branded__item11:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item12{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (10).png");
+    transition: .3s;
+}
+.branded__item12:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item13{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (11).png");
+    transition: .3s;
+}
+.branded__item13:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item14{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (12).png");
+    transition: .3s;
+}
+.branded__item14:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__item15{
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 156px;
+    border-radius: 30px 0;
+    background-image: url("../../../../../../../Assets/Branded/bg (13).png");
+    transition: .3s;
+}
+.branded__item15:hover{
+    box-shadow: 0 4px 30px rgba(111, 111, 111, 0.85);
+    transition: .3s;
+}
+.branded__text{
+    font-family: 'Oswald',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: .3s;
+    cursor: pointer;
+}
+.branded__text:hover{
+    color: #13f600;
+    text-decoration-line: underline;
+    transition: .3s;
+}
