@@ -1,6 +1,10 @@
 .catalog{
-    padding: 23px 0 167px;
+    padding: 23px 0 107px;
     background: #FAFAEB;
+}
+.oops{
+    display: flex;
+    column-gap: 37px;
 }
 .catalog__list-title{
     font-family: 'Open Sans',sans-serif;
@@ -20,4 +24,11 @@
     font-size: 16px;
     line-height: 28px;
     color: #2D3A3A;
+    transition: .3s;
+}
+.catalog__list-item:hover{
+    text-decoration-line: underline;
+    color: #2BA84A;
+    cursor: pointer;
+    transition: .3s;
 }

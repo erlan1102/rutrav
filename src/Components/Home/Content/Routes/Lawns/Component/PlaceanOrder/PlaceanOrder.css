@@ -1,0 +1,41 @@
+.placeanorder{
+    padding: 92px 0 100px;
+    background: #F8F8F8;
+}
+.placeanorder__info{
+    padding: 0 0 50px 30px;
+    background: #FFFFFF;
+}
+.placeanorder__info-region{
+    margin-left: -30px;
+    padding: 22px 24px;
+    background: #E4E7E7;
+}
+.placeanorder__info-title{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+}
+.placeanorder__info-type{
+    margin: 30px 0;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+.placeanorder__info-label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.placeanorder__info-face{
+    margin-right: 9px;
+}
+.placeanorder__info-wallet{
+    margin-left: 10px;
+}

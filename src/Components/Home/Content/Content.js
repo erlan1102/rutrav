@@ -30,21 +30,37 @@ import Sowing from "./Routes/Lawns/Component/Sowing";
 import Related from "./Routes/Lawns/Component/Related";
 import Fodder from "./Routes/Lawns/Component/Fodder/Fodder";
 import Fertilizers from "./Routes/Lawns/Component/Fertilizers/Fertilizers";
-import Product from "./Routes/Lawns/SortItem/Product";
-import ProductItem from "./Routes/Lawns/Product-Item/Product-Item";
+import Product from "./Routes/Lawns/Product/Product";
 import Catalog from "./Routes/Lawns/Catalog/Catalog";
 import Senokos from "./Routes/Lawns/Component/Fodder/Senokos";
 import Combined from "./Routes/Lawns/Component/Fodder/Combined";
 import Pasture from "./Routes/Lawns/Component/Fodder/Pasture";
 import Alfalfa from "./Routes/Lawns/Component/Fodder/Alfalfa";
+import Alfalf from "./Routes/Lawns/Component/Perennial/Alfalf";
 import Bluegrass from "./Routes/Lawns/Component/Perennial/Bluegrass";
+import Ryegrass from "./Routes/Lawns/Component/Perennial/Ryegrass";
+import NotFound from "./Routes/Lawns/Component/NotFound/NotFound";
+import Oatmeal from "./Routes/Lawns/Component/Perennial/Oatmeal";
+import Clover from "./Routes/Lawns/Component/Perennial/Clover";
+import Pike from "./Routes/Lawns/Component/Perennial/Pike";
+import Polevitsa from "./Routes/Lawns/Component/Perennial/Polevitsa";
+import Timofeevka from "./Routes/Lawns/Component/Perennial/Timofeevka";
+import Rump from "./Routes/Lawns/Component/Perennial/Rump";
+import Festulolium from "./Routes/Lawns/Component/Perennial/Festulolium";
+import Hedgehog from "./Routes/Lawns/Component/Perennial/Hedgehog";
+import Canary from "./Routes/Lawns/Component/Perennial/Canary";
+import Basket from "./Routes/Lawns/Component/Basket/Basket";
+import PlaceanOrder from "./Routes/Lawns/Component/PlaceanOrder/PlaceanOrder";
 
 const Content = () => {
     return (
         <section className='home__content'>
                 <Header/>
                 <Routes>
+                    <Route path='/*' element={<NotFound/>}/>
                     <Route path='/' element={<Main/>}/>
+                    <Route path='/basket' element={<Basket/>}/>
+                    <Route path='/placeanorder' element={<PlaceanOrder/>}/>
                     <Route path='/company' element={<Company/>}/>
                     <Route path='/articles' element={<Articles/>}/>
                     <Route path='/payment' element={<Payment/>}/>
@@ -54,6 +70,7 @@ const Content = () => {
                     <Route path='/cheap' element={<Cheap/>}/>
                     <Route path='/order' element={<Order/>}/>
                     <Route path='/branded' element={<Branded/>}/>
+                    <Route path='/product/:title' element={<Product/>}/>
                     <Route path='/branded/cottage' element={<Cottage/>}/>
                     <Route path='/branded/undersized' element={<Undersized/>}/>
                     <Route path='/branded/sports' element={<Sports/>}/>
@@ -70,6 +87,17 @@ const Content = () => {
                     <Route path='/branded/stalls' element={<Stalls/>}/>
                     <Route path='/perennial' element={<Perennial/>}/>
                     <Route path='/perennial/bluegrass' element={<Bluegrass/>}/>
+                    <Route path='/perennial/oatmeal' element={<Oatmeal/>}/>
+                    <Route path='/perennial/clover' element={<Clover/>}/>
+                    <Route path='/perennial/ryegrass' element={<Ryegrass/>}/>
+                    <Route path='/perennial/alfalfa' element={<Alfalf/>}/>
+                    <Route path='/perennial/pike' element={<Pike/>}/>
+                    <Route path='/perennial/polevitsa' element={<Polevitsa/>}/>
+                    <Route path='/perennial/timofeevka' element={<Timofeevka/>}/>
+                    <Route path='/perennial/rump' element={<Rump/>}/>
+                    <Route path='/perennial/festulolium' element={<Festulolium/>}/>
+                    <Route path='/perennial/hedgehog' element={<Hedgehog/>}/>
+                    <Route path='/perennial/canary' element={<Canary/>}/>
                     <Route path='/sowing' element={<Sowing/>}/>
                     <Route path='/related' element={<Related/>}/>
                     <Route path='/fodder' element={<Fodder/>}/>
@@ -78,9 +106,6 @@ const Content = () => {
                     <Route path='/fodder/pasture' element={<Pasture/>}/>
                     <Route path='/fodder/alfalfa' element={<Alfalfa/>}/>
                     <Route path='/fertilizers' element={<Fertilizers/>}/>
-                    <Route path='/product' element={<Product/>}/>
-                    <Route path='/product-item' element={<ProductItem/>}/>
-                    <Route path='/:path/product/:id' element={<Product/>}/>
                 </Routes>
                 <Footer/>
         </section>

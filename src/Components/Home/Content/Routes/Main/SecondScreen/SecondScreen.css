@@ -6,6 +6,7 @@
 .second-screen__row {
     display: flex;
     align-items: center;
+    margin-left: 140px;
 }
 .second-screen__pack{
     display: flex;

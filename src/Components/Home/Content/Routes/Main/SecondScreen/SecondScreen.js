@@ -5,7 +5,6 @@ import {Link} from "react-router-dom";
 const SecondScreen = () => {
     return (
         <section className='second-screen'>
-            <div className="container">
                 <div className="second-screen__row">
                     <div className='second-screen-box1'>
                         <div>
@@ -34,7 +33,6 @@ const SecondScreen = () => {
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
     );
 };

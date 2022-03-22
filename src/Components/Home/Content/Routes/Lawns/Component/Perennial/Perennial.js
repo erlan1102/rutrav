@@ -14,37 +14,37 @@ const Perennial = () => {
                         <Link to='/perennial/bluegrass' className='perennial__text'>МЯТЛИК</Link>
                     </div>
                     <div className='perennial__item2'>
-                        <Link to='/perennial/' className='perennial__text'>ОВСЯНИЦА</Link>
+                        <Link to='/perennial/oatmeal' className='perennial__text'>ОВСЯНИЦА</Link>
                     </div>
                     <div className='perennial__item3'>
                         <Link to='/perennial/ryegrass' className='perennial__text'>РАЙГРАС</Link>
                     </div>
                     <div className='perennial__item4'>
-                        <Link to='/perennial/' className='perennial__text'>КЛЕВЕР (ПОЛЗУЧИЙ, ЛУГОВОЙ)</Link>
+                        <Link to='/perennial/clover' className='perennial__text'>КЛЕВЕР (ПОЛЗУЧИЙ, ЛУГОВОЙ)</Link>
                     </div>
                     <div className='perennial__item5'>
-                        <Link to='/perennial/' className='perennial__text'>ЛЮЦЕРНА</Link>
+                        <Link to='/perennial/alfalfa' className='perennial__text'>ЛЮЦЕРНА</Link>
                     </div>
                     <div className='perennial__item6'>
-                        <Link to='/perennial/' className='perennial__text'>ЩУЧКА ДЕРНИСТАЯ</Link>
+                        <Link to='/perennial/pike' className='perennial__text'>ЩУЧКА ДЕРНИСТАЯ</Link>
                     </div>
                     <div className='perennial__item7'>
-                        <Link to='/perennial/' className='perennial__text'>ПОЛЕВИЦА</Link>
+                        <Link to='/perennial/polevitsa' className='perennial__text'>ПОЛЕВИЦА</Link>
                     </div>
                     <div className='perennial__item8'>
-                        <Link to='/perennial/' className='perennial__text'>ТИМОФЕЕВКА ЛУГОВАЯ</Link>
+                        <Link to='/perennial/timofeevka' className='perennial__text'>ТИМОФЕЕВКА ЛУГОВАЯ</Link>
                     </div>
                     <div className='perennial__item9'>
-                        <Link to='/perennial/' className='perennial__text'>КОСТРЕЦ</Link>
+                        <Link to='/perennial/rump' className='perennial__text'>КОСТРЕЦ</Link>
                     </div>
                     <div className='perennial__item10'>
-                        <Link to='/perennial/' className='perennial__text'>ФЕСТУЛОЛИУМ</Link>
+                        <Link to='/perennial/festulolium' className='perennial__text'>ФЕСТУЛОЛИУМ</Link>
                     </div>
                     <div className='perennial__item11'>
-                        <Link to='/perennial/' className='perennial__text'>ЕЖА СБОРНАЯ</Link>
+                        <Link to='/perennial/hedgehog' className='perennial__text'>ЕЖА СБОРНАЯ</Link>
                     </div>
                     <div className='perennial__item12'>
-                        <Link to='/perennial/' className='perennial__text'>КАНАРЕЕЧНИК (ДВУКИСТОЧНИК)</Link>
+                        <Link to='/perennial/canary' className='perennial__text'>КАНАРЕЕЧНИК (ДВУКИСТОЧНИК)</Link>
                     </div>
                 </div>
                 <SortItem path='perennial'/>

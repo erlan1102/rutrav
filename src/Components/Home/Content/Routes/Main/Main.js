@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import FirstScreen from "./First-screen/First-screen";
 import SecondScreen from "./SecondScreen/SecondScreen";
 import ThirdScreen from "./ThirdScreen/ThirdScreen";
@@ -7,7 +7,6 @@ import FifthScreen from "./FifthScreen/FifthScreen";
 import SixthScreen from "./SixthScreen/SixthScreen";
 
 const Main = () => {
-    const [ordercall, setOrderCall] = useState([]);
     return (
         <div className='main'>
             <FirstScreen/>

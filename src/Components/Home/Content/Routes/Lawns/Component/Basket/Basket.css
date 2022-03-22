@@ -1,0 +1,125 @@
+.basket{
+    padding: 92px 0 101px;
+}
+.route__title{
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    color: #2BA84A;
+    margin-bottom: 35px;
+}
+.basket__express{
+    display: flex;
+    column-gap: 30px;
+}
+.basket__express-title{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+}
+.basket__express-subtitle{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    cursor: pointer;
+}
+.basket__express-subtitle:hover{
+    color: #2BA84A;
+}
+.basket__info-img{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    margin-right: 75px;
+}
+.basket__info-name{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    margin-right: 317px;
+}
+.basket__info-sum{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    margin-right: 84px;
+}
+.basket__info-one{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    margin-left: 20px;
+}
+.basket__info-delete{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.basket__table{
+    width: 100%;
+    margin-top: 23px;
+    border-collapse: collapse;
+}
+.basket__thead{
+    background: #E4E7E7;
+}
+
+.basket__info-one{
+    text-align: center;
+    padding: 22px 11px;
+    width: 15%;
+}
+.basket__info-two{
+    width: 25%;
+    padding: 22px 11px;
+}
+.basket__input{
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    letter-spacing: 1px;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D3A3A;
+    border: none;
+    margin: 0 0 25px;
+}
+.basket__not{
+    text-align: center;
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    color: #2D3A3A;
+    margin: 35px 0;
+}

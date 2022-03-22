@@ -4,12 +4,15 @@ import App from './App';
 import {BrowserRouter} from "react-router-dom";
 import 'typeface-open-sans'
 import '@fontsource/oswald'
+import {Context} from "./Context";
 
 
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
-          <App />
+          <Context>
+              <App />
+          </Context>
       </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

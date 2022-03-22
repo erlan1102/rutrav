@@ -1,7 +1,33 @@
-import React from 'react';
-import './FifthScreen.css'
+import React, {useState} from 'react';
+import './FifthScreen.css';
+import {useForm} from "react-hook-form";
+import InputMask from "react-input-mask";
+import axios from "axios";
 
 const FifthScreen = () => {
+    const [call, setCall] = useState(false);
+    const {
+        register,
+        formState: {
+            errors,
+        },
+        handleSubmit
+    } = useForm({
+        mode: "onBlur",
+    });
+    const addReview = (e) =>{
+        e.preventDefault();
+        axios.post('https://formsubmit.co/erlanisakov60@gmail.com', {
+            name: e.target[0].value,
+            tel: e.target[1].value,
+            question: e.target[2].value
+        }).then(({data})=> {
+            console.log(data);
+            e.target[0].value = '';
+            e.target[1].value = '';
+            e.target[2].value = '';
+        });
+    };
     return (
         <section className='fifth-screen'>
             <div className="container">
@@ -73,7 +99,49 @@ const FifthScreen = () => {
                     </div>
                 </div>
                 <div className='fifth-screen__order'>
-                    <button className='fifth-screen__btn' type='button'>Заказать звонок</button>
+                    <button className='fifth-screen__btn' type='button' onClick={()=> setCall(!call)}>Заказать звонок</button>
+                    <div className={`${call ? 'active' : ''} header__overlay `}>
+                        <div className={'header__middle-form'}>
+                            <div className='header__overlay-list'>
+                                <p>Запросить оптовый прайс-лист</p>
+                                <p className='header__overlay-delete' onClick={()=> setCall(!call)} >
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.4158 8.00409L15.7158 1.71409C15.9041 1.52579 16.0099 1.27039 16.0099 1.00409C16.0099 0.73779 15.9041 0.482395 15.7158 0.294092C15.5275 0.105788 15.2721 0 15.0058 0C14.7395 0 14.4841 0.105788 14.2958 0.294092L8.0058 6.59409L1.7158 0.294092C1.52749 0.105788 1.2721 2.36434e-07 1.0058 2.38419e-07C0.739497 2.40403e-07 0.484102 0.105788 0.295798 0.294092C0.107495 0.482395 0.00170684 0.73779 0.00170684 1.00409C0.00170684 1.27039 0.107495 1.52579 0.295798 1.71409L6.5958 8.00409L0.295798 14.2941C0.20207 14.3871 0.127676 14.4977 0.0769072 14.6195C0.0261385 14.7414 0 14.8721 0 15.0041C0 15.1361 0.0261385 15.2668 0.0769072 15.3887C0.127676 15.5105 0.20207 15.6211 0.295798 15.7141C0.388761 15.8078 0.499362 15.8822 0.621222 15.933C0.743081 15.9838 0.873786 16.0099 1.0058 16.0099C1.13781 16.0099 1.26852 15.9838 1.39038 15.933C1.51223 15.8822 1.62284 15.8078 1.7158 15.7141L8.0058 9.41409L14.2958 15.7141C14.3888 15.8078 14.4994 15.8822 14.6212 15.933C14.7431 15.9838 14.8738 16.0099 15.0058 16.0099C15.1378 16.0099 15.2685 15.9838 15.3904 15.933C15.5122 15.8822 15.6228 15.8078 15.7158 15.7141C15.8095 15.6211 15.8839 15.5105 15.9347 15.3887C15.9855 15.2668 16.0116 15.1361 16.0116 15.0041C16.0116 14.8721 15.9855 14.7414 15.9347 14.6195C15.8839 14.4977 15.8095 14.3871 15.7158 14.2941L9.4158 8.00409Z" fill="white"/>
+                                    </svg>
+                                </p>
+                            </div>
+                            <form action="https://formsubmit.co/erlanisakov60@gmail.com" method="POST" onSubmit={()=> handleSubmit(addReview)}>
+                                <p className='route__text'>Имя*</p>
+                                <input className='header__form-input' type="text" name="name" placeholder='Александр'
+                                       {...register('name', {
+                                           required: "Поле обязательно к заполнению!",
+                                           minLength: {
+                                               value: 2,
+                                               message: 'Минимум 2 символа!'
+                                           }})}/>
+                                <div style={{height: 20}}>{errors?.name && <p className='form__error'>{errors?.name?.message || "Error!"}</p>}</div>
+                                <p className='route__text'>Телефон*</p>
+                                <InputMask id='number' required className='header__form-input' mask="+7 (999) 999-99-99" placeholder='+7 (495) 777-90-87'
+                                           {...register('number', {
+                                               required: "Поле обязательно к заполнению!",
+                                               minLength: {
+                                                   value: 2,
+                                                   message: 'Минимум 2 символа!'
+                                               }})}/>
+                                <div style={{height: 20}}>{errors?.number && <p className='form__error'>{errors?.number?.message || "Error!"}</p>}</div>
+                                <p className='route__text'>E-mail*</p>
+                                <input className='header__form-input' type="email" name="email" placeholder='aleksandr@gmail.com'
+                                       {...register('mail', {
+                                           required: "Необходимо заполнить!",
+                                           minLength: {
+                                               value: 5,
+                                               message: 'Минимум 5 символа!'
+                                           }})}/>
+                                <div style={{height: 20}}>{errors?.mail && <p className='form__error'>{errors?.mail?.message || "Error!"}</p>}</div>
+                                <button className='route__form-btn' type='submit'>Отправить</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 <div className='fifth-screen__info'>
                     <p className='fifth-screen__info-title'>Выгодные предложения для оптовых покупателей</p>

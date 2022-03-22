@@ -209,10 +209,14 @@
     line-height: 26px;
     color: #333333;
 }
+.route__form-input::placeholder{
+    color: red;
+}
 .route__form-descr{
     width: 612px;
     height: 120px;
-    padding: 0 10px;
+    padding: 10px 20px 0;
+    resize: none;
     margin: 16px 0;
     border: 1px solid #7D7D7D;
     font-family: 'Open Sans',sans-serif;

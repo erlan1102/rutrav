@@ -6,7 +6,6 @@ import Bag from '../../../../../../Assets/Fourth-screen/bag.png'
 const FourthScreen = () => {
     return (
         <section className='fourth-screen'>
-            <div className="container">
                 <div className="fourth-screen__row">
                     <div className='fourth-screen__img'>
                         <img className='fourth-screen__img-man' src={Man} alt="Man"/>
@@ -28,7 +27,6 @@ const FourthScreen = () => {
                         <p className='fourth-screen__info-subtitle'>Приобрести семена газонной травы оптом от производителя можно в агрофирме «Русские травы», оформив доставку по Москве и области. После оплаты доставляем в течение 3 дней. Возможна доставка в регионы России (цена и сроки зависят от транспортной компании).</p>
                     </div>
                 </div>
-            </div>
         </section>
     );
 };

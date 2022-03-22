@@ -13,7 +13,7 @@ const FirstScreen = () => {
                         <p className='first-screen__info-title'>Семена газонных трав от производителя</p>
                         <p className='first-screen__info-subtitle'>«Русские травы» — это оптовая компания-производитель семян многолетних трав, а также травосмесей для газонов различных типов в строгом соответствии с требованиями государственных стандартов. Качество нашей продукции соответствует ГОСТ Р 52 325-2005.</p>
                         <div className='first-screen__add'>
-                            <button className='first-screen__add-btn' type='button'>Подобрать травосмеси</button>
+                            <Link to='/catalog'><button className='first-screen__add-btn' type='button'>Подобрать травосмеси</button></Link>
                             <Link to='/cheap' className='first-screen__add-text'>Дешевые травосмеси</Link>
                         </div>
                     </div>

@@ -1,15 +1,41 @@
-import React,{useState, useEffect} from 'react';
+import React,{useState, useEffect,useContext} from 'react';
+import {CustomContext} from "../../../../Context";
 import './Header.css'
 import '../../../../style.css'
 import Logo from '../../../../Assets/logo/Logo.svg'
 import {Link, NavLink} from "react-router-dom";
 import axios from "axios";
+import {useForm} from "react-hook-form";
+import InputMask from 'react-input-mask'
 
 const Header = () => {
     const [call, setCall] = useState(false);
     const [search, setSearch] = useState(false);
-    const [all, setAll] = useState([]);
+    const {all, setAll} = useContext(CustomContext);
     const [searchVal, setSearchVal] = useState('');
+    const {cart} = useContext(CustomContext);
+    const {
+        register,
+        formState: {
+            errors,
+        },
+        handleSubmit
+    } = useForm({
+        mode: "onBlur",
+    });
+    const addReview = (e) =>{
+        e.preventDefault();
+        axios.post('https://formsubmit.co/erlanisakov60@gmail.com', {
+            name: e.target[0].value,
+            tel: e.target[1].value,
+            question: e.target[2].value
+        }).then(({data})=> {
+            console.log(data);
+            e.target[0].value = '';
+            e.target[1].value = '';
+            e.target[2].value = '';
+        });
+    };
 
     useEffect(()=> {
         axios('http://localhost:8080/all')
@@ -35,18 +61,20 @@ const Header = () => {
                         <div className='header__top-search'>
                             <input value={searchVal} className='header__top-input' type="text" placeholder='Поиск' onChange={(e)=> {
                                 searchHandler(e.target.value);
-                                setSearchVal(e.target.value)
+                                setSearchVal(e.target.value);
                             }}/>
                             <ul className='header__list' style={{display: `${searchVal && all.length  ? 'flex' : 'none'}`}}>
                                 {
-                                    all.filter((item)=> item.title.toUpperCase().toLowerCase().includes(searchVal)).map((item,idx)=> (
+                                    all.filter((item)=> item.title.toUpperCase().toLowerCase().includes(searchVal.toUpperCase().toLowerCase())).map((item,idx)=> (
                                     <li key={idx} className='header__list-item'>
                                         <div className='header__list-info'>
                                             <img className='header__list-img' src={item.imageUrl} alt=""/>
-                                            <Link to={`${item.categories}/product/${item.id}`} onClick={searchVal}>
-                                                <p className='header__list-title'>{item.title}</p>
+                                            <div>
+                                                <Link to={`/product/${item.title}`} className='header__list-title' onClick={searchVal}>
+                                                    {item.title}
+                                                </Link>
                                                 <p className='header__list-price'>от {item.price}</p>
-                                            </Link>
+                                            </div>
                                         </div>
                                     </li>
                                     ))
@@ -55,10 +83,6 @@ const Header = () => {
                             <span className='header__top-svg'>
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 15L11 11M7 13C3.68629 13 1 10.3137 1 7C1 3.68629 3.68629 1 7 1C10.3137 1 13 3.68629 13 7C13 10.3137 10.3137 13 7 13Z" stroke="#2D3A3A"/></svg>
                             </span>
-                        </div>
-                        <div className='header__right'>
-                            <p className='header__right-title'>Вход</p>
-                            <p className='header__right-title'>Регистрация</p>
                         </div>
                     </div>
                 </div>
@@ -102,8 +126,47 @@ const Header = () => {
                         </div>
                     </div>
                     <button className='header__middle-btn' type='button' onClick={()=> setCall(!call)}>Заказать звонок</button>
-                    <div className={`${call ? 'active' : ''} header__middle-form`}>
-
+                    <div className={`${call ? 'active' : ''} header__overlay `}>
+                        <div className={'header__middle-form'}>
+                            <div className='header__overlay-list'>
+                                <p>Запросить оптовый прайс-лист</p>
+                                <p className='header__overlay-delete' onClick={()=> setCall(!call)} >
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.4158 8.00409L15.7158 1.71409C15.9041 1.52579 16.0099 1.27039 16.0099 1.00409C16.0099 0.73779 15.9041 0.482395 15.7158 0.294092C15.5275 0.105788 15.2721 0 15.0058 0C14.7395 0 14.4841 0.105788 14.2958 0.294092L8.0058 6.59409L1.7158 0.294092C1.52749 0.105788 1.2721 2.36434e-07 1.0058 2.38419e-07C0.739497 2.40403e-07 0.484102 0.105788 0.295798 0.294092C0.107495 0.482395 0.00170684 0.73779 0.00170684 1.00409C0.00170684 1.27039 0.107495 1.52579 0.295798 1.71409L6.5958 8.00409L0.295798 14.2941C0.20207 14.3871 0.127676 14.4977 0.0769072 14.6195C0.0261385 14.7414 0 14.8721 0 15.0041C0 15.1361 0.0261385 15.2668 0.0769072 15.3887C0.127676 15.5105 0.20207 15.6211 0.295798 15.7141C0.388761 15.8078 0.499362 15.8822 0.621222 15.933C0.743081 15.9838 0.873786 16.0099 1.0058 16.0099C1.13781 16.0099 1.26852 15.9838 1.39038 15.933C1.51223 15.8822 1.62284 15.8078 1.7158 15.7141L8.0058 9.41409L14.2958 15.7141C14.3888 15.8078 14.4994 15.8822 14.6212 15.933C14.7431 15.9838 14.8738 16.0099 15.0058 16.0099C15.1378 16.0099 15.2685 15.9838 15.3904 15.933C15.5122 15.8822 15.6228 15.8078 15.7158 15.7141C15.8095 15.6211 15.8839 15.5105 15.9347 15.3887C15.9855 15.2668 16.0116 15.1361 16.0116 15.0041C16.0116 14.8721 15.9855 14.7414 15.9347 14.6195C15.8839 14.4977 15.8095 14.3871 15.7158 14.2941L9.4158 8.00409Z" fill="white"/>
+                                </svg>
+                                </p>
+                            </div>
+                            <form action="https://formsubmit.co/erlanisakov60@gmail.com" method="POST" onSubmit={()=> handleSubmit(addReview)}>
+                                <p className='route__text'>Имя*</p>
+                                <input className='header__form-input' type="text" name="name" placeholder='Александр'
+                                       {...register('name', {
+                                           required: "Поле обязательно к заполнению!",
+                                           minLength: {
+                                               value: 2,
+                                               message: 'Минимум 2 символа!'
+                                           }})}/>
+                                <div style={{height: 20}}>{errors?.name && <p className='form__error'>{errors?.name?.message || "Error!"}</p>}</div>
+                                <p className='route__text'>Телефон*</p>
+                                <InputMask id='number' required className='header__form-input' mask="+7 (999) 999-99-99" placeholder='+7 (495) 777-90-87'
+                                           {...register('number', {
+                                               required: "Поле обязательно к заполнению!",
+                                               minLength: {
+                                                   value: 2,
+                                                   message: 'Минимум 2 символа!'
+                                               }})}/>
+                                <div style={{height: 20}}>{errors?.number && <p className='form__error'>{errors?.number?.message || "Error!"}</p>}</div>
+                                <p className='route__text'>E-mail*</p>
+                                <input className='header__form-input' type="email" name="email" placeholder='aleksandr@gmail.com'
+                                       {...register('mail', {
+                                           required: "Необходимо заполнить!",
+                                           minLength: {
+                                               value: 5,
+                                               message: 'Минимум 5 символа!'
+                                           }})}/>
+                                <div style={{height: 20}}>{errors?.mail && <p className='form__error'>{errors?.mail?.message || "Error!"}</p>}</div>
+                                <button className='route__form-btn' type='submit'>Отправить</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,9 +174,7 @@ const Header = () => {
                     <div className="container">
                         <div className="header__bottom-info">
                             <div className='header__bottom-text'>
-                                <Link to='/catalog' className='header__bottom-catalog'>Каталог <span><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1L7 7L13 1" stroke="white"/></svg></span>
-                                </Link>
+                                <NavLink to='/catalog' className='header__bottom-title'>Каталог</NavLink>
                                 <NavLink to='/branded' className='header__bottom-title'>Фирменные газонные травосмеси</NavLink>
                                 <NavLink to='/cheap' className='header__bottom-title'>Дешёвые травосмеси</NavLink>
                                 <NavLink to='/order' className='header__bottom-title'>Травосмесь на заказ</NavLink>
@@ -122,7 +183,10 @@ const Header = () => {
                                 <span className='header__basket-svg'>
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.94898 14.898L3.39619 14.6743L3.39619 14.6743L2.94898 14.898ZM13.051 14.898L13.4982 15.1216L13.4982 15.1216L13.051 14.898ZM1.2032 6.5H14.7968V5.5H1.2032V6.5ZM14.5 6.2032V6.64196H15.5V6.2032H14.5ZM12.8859 14.5H3.11409V15.5H12.8859V14.5ZM1.5 6.64196V6.2032H0.5V6.64196H1.5ZM3.39619 14.6743C2.1492 12.1804 1.5 9.43031 1.5 6.64196H0.5C0.5 9.58555 1.18535 12.4887 2.50176 15.1216L3.39619 14.6743ZM3.11409 14.5C3.23356 14.5 3.34277 14.5675 3.39619 14.6743L2.50176 15.1216C2.61773 15.3535 2.85478 15.5 3.11409 15.5V14.5ZM12.6038 14.6743C12.6572 14.5675 12.7664 14.5 12.8859 14.5V15.5C13.1452 15.5 13.3823 15.3535 13.4982 15.1216L12.6038 14.6743ZM14.5 6.64196C14.5 9.43031 13.8508 12.1804 12.6038 14.6743L13.4982 15.1216C14.8147 12.4887 15.5 9.58555 15.5 6.64196H14.5ZM14.7968 6.5C14.6329 6.5 14.5 6.36712 14.5 6.2032H15.5C15.5 5.81483 15.1852 5.5 14.7968 5.5V6.5ZM1.2032 5.5C0.814831 5.5 0.5 5.81483 0.5 6.2032H1.5C1.5 6.36712 1.36712 6.5 1.2032 6.5V5.5ZM4.42875 6.25725L7.42875 1.25725L6.57125 0.742752L3.57125 5.74275L4.42875 6.25725ZM8.57125 1.25725L11.5713 6.25725L12.4287 5.74275L9.42875 0.742752L8.57125 1.25725Z" fill="white"/></svg>
                                 </span>
-                                <p className='header__basket-text'>В корзине: <span className='header__basket-money'>0 ₽</span></p>
+                                <Link to='/basket' className='header__basket'>
+                                    <p className='header__basket-text' >В корзине:</p>
+                                    <p className='header__basket-money'>{cart.reduce((acc, rec)=> acc + (rec.count * rec.price.slice(0, rec.price.length - 6)),0)} ₽</p>
+                                </Link>
                             </div>
                         </div>
                     </div>

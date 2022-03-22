@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import axios from "axios";
+import {Link} from "react-router-dom";
 
 const ThirdScreen = () => {
     SwiperCore.use([Autoplay]);
@@ -97,8 +98,8 @@ const ThirdScreen = () => {
                                 <SwiperSlide key={idx}>
                                     <div className='third-screen__bottom-row'>
                                         <img src={item.imageUrl} alt="Lawn"/>
-                                        <p className='third-screen__bottom-title'>{item.title}</p>
-                                        <p className='third-screen__bottom-subtitle'>от {item.price} ₽ <span className='third-screen__bottom-span'>/ уп</span></p>
+                                        <Link to={`/product/${item.title}`}><p className='route__box-title'>{item.title}</p></Link>
+                                        <p className='third-screen__bottom-subtitle'>от {item.price}</p>
                                     </div>
                                 </SwiperSlide>
                             ))

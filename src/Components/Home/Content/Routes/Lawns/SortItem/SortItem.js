@@ -2,9 +2,32 @@ import React,{useState, useEffect} from 'react';
 import axios from "axios";
 import Bunny from '../../../../../../Assets/logo/hare.png'
 import {Link} from "react-router-dom";
+import {useForm} from "react-hook-form";
 
 const SortItem = ({path}) => {
     const [search, setSearch] = useState([]);
+    const {
+        register,
+        formState: {
+            errors,
+        },
+        handleSubmit
+    } = useForm({
+        mode: "onBlur",
+    });
+    const addReview = (e) =>{
+        e.preventDefault();
+        axios.post('https://formsubmit.co/erlanisakov60@gmail.com', {
+            name: e.target[0].value,
+            tel: e.target[1].value,
+            question: e.target[2].value
+        }).then(({data})=> {
+            console.log(data);
+            e.target[0].value = '';
+            e.target[1].value = '';
+            e.target[2].value = '';
+        });
+    };
     useEffect(()=> {
         axios(`http://localhost:8080/${path}`)
             .then(({data}) => setSearch(data));
@@ -13,9 +36,9 @@ const SortItem = ({path}) => {
         <div className='route__row'>
             {
                 search.map((item)=>(
-                    <div className='route__box'>
+                    <div key={item.id} className='route__box'>
                         <img className='route__box-img' src={item.imageUrl} alt="Lawn"/>
-                        <Link to='product-item'><p className='route__box-title'>{item.title}</p></Link>
+                        <Link to={`/product/${item.title}`}><p className='route__box-title'>{item.title}</p></Link>
                         <p className='route__box-price'>от {item.price}</p>
                         <p className='route__box-pack'>от {item.packaging}</p>
                     </div>
@@ -24,15 +47,43 @@ const SortItem = ({path}) => {
             <div className='route__form'>
                 <div>
                     <p className='route__subtitle'>Не нашли нужную травосмесь? Сделаем по вашему составу.</p>
-                    <form action="https://formsubmit.co/erlanisakov60@gmail.com " method="POST">
+                    <form action="https://formsubmit.co/erlanisakov60@gmail.com" method="POST" onSubmit={()=> handleSubmit(addReview)}>
                         <p className='route__text'>Имя*</p>
-                        <input className='route__form-input' type="text" name="name"/>
+                        <input className='route__form-input' type="text" name="name"
+                               {...register('name', {
+                                   required: "Поле обязательно к заполнению!",
+                                   minLength: {
+                                       value: 2,
+                                       message: 'Минимум 2 символа!'
+                                   }})}/>
+                        <div style={{height: 20}}>{errors?.name && <p className='form__error'>{errors?.name?.message || "Error!"}</p>}</div>
                         <p className='route__text'>Телефон*</p>
-                        <input className='route__form-input' type="tel" name="tel"/>
+                        <input className='route__form-input' type="tel" name="tel"
+                               {...register('num', {
+                                   required: "Необходимо заполнить!",
+                                   minLength: {
+                                       value: 2,
+                                       message: 'Минимум 2 символа!'
+                                   }})}/>
+                        <div style={{height: 20}}>{errors?.num && <p className='form__error'>{errors?.num?.message || "Error!"}</p>}</div>
                         <p className='route__text'>E-mail*</p>
-                        <input className='route__form-input' type="email" name="email"/>
+                        <input className='route__form-input' type="email" name="email"
+                               {...register('mail', {
+                                   required: "Необходимо заполнить!",
+                                   minLength: {
+                                       value: 5,
+                                       message: 'Минимум 5 символа!'
+                                   }})}/>
+                        <div style={{height: 20}}>{errors?.mail && <p className='form__error'>{errors?.mail?.message || "Error!"}</p>}</div>
                         <p className='route__text'>Опишите необходимый состав</p>
-                        <textarea className='route__form-descr' name="description"/>
+                        <textarea className='route__form-descr' name="description"
+                                  {...register('descr', {
+                                      required: "Необходимо заполнить!",
+                                      minLength: {
+                                          value: 10,
+                                          message: 'Минимум 10 символа!'
+                                      }})}/>
+                        <div style={{height: 20}}>{errors?.descr && <p className='form__error'>{errors?.descr?.message || "Error!"}</p>}</div>
                         <button className='route__form-btn' type='submit'>Отправить</button>
                     </form>
                 </div>
