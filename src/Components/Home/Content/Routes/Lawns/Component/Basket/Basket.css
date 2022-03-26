@@ -11,6 +11,11 @@
     margin-bottom: 35px;
 }
 .basket__express{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 30px;
+}
+.basket__express-dub{
     display: flex;
     column-gap: 30px;
 }
@@ -21,6 +26,7 @@
     font-size: 16px;
     line-height: 26px;
     color: #2D3A3A;
+    margin-bottom: 35px;
 }
 .basket__express-subtitle{
     font-family: 'Open Sans',sans-serif;
@@ -82,8 +88,8 @@
 }
 .basket__table{
     width: 100%;
-    margin-top: 23px;
     border-collapse: collapse;
+    border-bottom: 1px solid #E4E7E7;
 }
 .basket__thead{
     background: #E4E7E7;
@@ -122,4 +128,12 @@
     line-height: 71px;
     color: #2D3A3A;
     margin: 35px 0;
+}
+.basket__sum{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2BA84A;
 }

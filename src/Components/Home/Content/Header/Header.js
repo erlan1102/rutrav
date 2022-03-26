@@ -174,7 +174,7 @@ const Header = () => {
                     <div className="container">
                         <div className="header__bottom-info">
                             <div className='header__bottom-text'>
-                                <NavLink to='/catalog' className='header__bottom-title'>Каталог</NavLink>
+                                <NavLink to='/catalog' className='header__bottom-catalog'>Каталог</NavLink>
                                 <NavLink to='/branded' className='header__bottom-title'>Фирменные газонные травосмеси</NavLink>
                                 <NavLink to='/cheap' className='header__bottom-title'>Дешёвые травосмеси</NavLink>
                                 <NavLink to='/order' className='header__bottom-title'>Травосмесь на заказ</NavLink>
@@ -182,6 +182,10 @@ const Header = () => {
                             <div className='header__basket'>
                                 <span className='header__basket-svg'>
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.94898 14.898L3.39619 14.6743L3.39619 14.6743L2.94898 14.898ZM13.051 14.898L13.4982 15.1216L13.4982 15.1216L13.051 14.898ZM1.2032 6.5H14.7968V5.5H1.2032V6.5ZM14.5 6.2032V6.64196H15.5V6.2032H14.5ZM12.8859 14.5H3.11409V15.5H12.8859V14.5ZM1.5 6.64196V6.2032H0.5V6.64196H1.5ZM3.39619 14.6743C2.1492 12.1804 1.5 9.43031 1.5 6.64196H0.5C0.5 9.58555 1.18535 12.4887 2.50176 15.1216L3.39619 14.6743ZM3.11409 14.5C3.23356 14.5 3.34277 14.5675 3.39619 14.6743L2.50176 15.1216C2.61773 15.3535 2.85478 15.5 3.11409 15.5V14.5ZM12.6038 14.6743C12.6572 14.5675 12.7664 14.5 12.8859 14.5V15.5C13.1452 15.5 13.3823 15.3535 13.4982 15.1216L12.6038 14.6743ZM14.5 6.64196C14.5 9.43031 13.8508 12.1804 12.6038 14.6743L13.4982 15.1216C14.8147 12.4887 15.5 9.58555 15.5 6.64196H14.5ZM14.7968 6.5C14.6329 6.5 14.5 6.36712 14.5 6.2032H15.5C15.5 5.81483 15.1852 5.5 14.7968 5.5V6.5ZM1.2032 5.5C0.814831 5.5 0.5 5.81483 0.5 6.2032H1.5C1.5 6.36712 1.36712 6.5 1.2032 6.5V5.5ZM4.42875 6.25725L7.42875 1.25725L6.57125 0.742752L3.57125 5.74275L4.42875 6.25725ZM8.57125 1.25725L11.5713 6.25725L12.4287 5.74275L9.42875 0.742752L8.57125 1.25725Z" fill="white"/></svg>
+                                    {cart.length
+                                        ? <span className='header__circle'>{cart.reduce((acc,rec)=> acc + +rec.count,0)}</span>
+                                        : ''
+                                    }
                                 </span>
                                 <Link to='/basket' className='header__basket'>
                                     <p className='header__basket-text' >В корзине:</p>

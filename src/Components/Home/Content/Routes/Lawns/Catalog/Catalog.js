@@ -1,5 +1,5 @@
 import React from 'react';
-import './Catalog.css';
+import './Catalog.css'
 import {Link} from "react-router-dom";
 
 const Catalog = () => {
@@ -64,6 +64,5 @@ const Catalog = () => {
         </div>
     );
 };
-//catalog__list-item
 
 export default Catalog;

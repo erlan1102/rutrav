@@ -2,13 +2,25 @@ import React, {useEffect, useState,useContext} from 'react';
 import {CustomContext} from "../../../../../../Context";
 import './Product.css'
 import axios from "axios";
-import {useParams} from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
+import {Navigation, Pagination} from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, {Autoplay} from 'swiper';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const Product = () => {
     const [ware, setWare] = useState([]);
     const params = useParams();
     const [count, setCount] = useState(1);
     const {addItem} = useContext(CustomContext);
+    SwiperCore.use([Autoplay]);
+    const [search, setSearch] = useState([]);
+    useEffect(()=> {
+        axios('http://localhost:8080/branded')
+            .then(({data}) => setSearch(data));
+    },[]);
 
     useEffect(()=> {
         axios(`http://localhost:8080/all?title=${params.title}`)
@@ -52,13 +64,45 @@ const Product = () => {
                                             </div>
                                             <div>
                                                 <input min={1} value={count} onChange={(e) => setCount(e.target.value)} className='product__input' type="number"/>
-                                                <span className='product__subtitle'>{ware[0].price.slice(0,ware[0].price.length - 6) * count} ₽</span>
+                                                <span className='product__summa'>{ware[0].price.slice(0,ware[0].price.length - 6) * count} ₽</span>
                                             </div>
                                         </div>
                                         <button className='header__middle-btn' type='button' onClick={() => addItem(ware[0].title, count)}>Купить</button>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="third-screen__bottom">
+                            <p className='third-screen__bottom-pop'>Популярные товары</p>
+                            <Swiper
+                                slidesPerView={3}
+                                spaceBetween={40}
+                                slidesPerGroup={1}
+                                loop={true}
+                                autoplay={{
+                                    delay: 1500,
+                                    disableOnInteraction: false
+                                }}
+                                loopFillGroupWithBlank={true}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                navigation={true}
+                                modules={[Pagination, Navigation]}
+                                className="mySwiper"
+                            >
+                                {
+                                    search.map((item,idx)=> (
+                                        <SwiperSlide key={idx}>
+                                            <div className='third-screen__bottom-row'>
+                                                <img src={item.imageUrl} alt="Lawn"/>
+                                                <Link to={`/product/${item.title}`}><p className='route__box-title'>{item.title}</p></Link>
+                                                <p className='third-screen__bottom-subtitle'>от {item.price}</p>
+                                            </div>
+                                        </SwiperSlide>
+                                    ))
+                                }
+                            </Swiper>
                         </div>
                     </div>
                 </div>

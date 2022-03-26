@@ -49,15 +49,21 @@ const Basket = () => {
                             </p></td>
                         </tr>
                     ))}
-
                     </tbody>
                 </table>
                     : <p className='basket__not'>Корзина пуста</p> }
 
                 <div className='basket__express'>
-                    <p className='basket__express-title'>Всего товаров: {cart.reduce((acc,rec)=> acc + +rec.count,0)}</p>
-                    <p className='basket__express-title'>Сумма заказов: {cart.reduce((acc, rec)=> acc + (rec.count * rec.price.slice(0, rec.price.length - 6)),0)} ₽</p>
+                    <div className='basket__express-dub'>
+                        <p className='basket__express-title'>Всего товаров:</p>
+                        <p className='basket__sum'>{cart.reduce((acc,rec)=> acc + +rec.count,0)}</p>
+                    </div>
+                    <div className='basket__express-dub'>
+                        <p className='basket__express-title'>Сумма заказов:</p>
+                        <p className='basket__sum'>{cart.reduce((acc, rec)=> acc + (rec.count * rec.price.slice(0, rec.price.length - 6)),0)} ₽</p>
+                    </div>
                 </div>
+                <Link to='/placeanorder'><button className='header__middle-btn' type='button'>Оформить заказ</button></Link>
             </div>
         </div>
     );

@@ -289,13 +289,28 @@
 .header__bottom-title.active{
     color: #2BA84A;
 }
+.header__bottom-catalog{
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .3s;
+}
+.header__bottom-catalog:hover{
+    color: #2BA84A;
+    transition: .3s;
+}
 .header__basket{
     display: flex;
     align-items: center;
     cursor: pointer;
+    position: relative;
 }
 .header__basket-text{
-    margin-left: 10px;
+    margin-left: 20px;
     font-family: Open Sans,sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -380,4 +395,23 @@
     font-size: 16px;
     line-height: 26px;
     color: #333333;
+}
+.header__circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 14px;
+    top: -10px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background: #2D3A3A;
+    color: #2BA84A;
+    border: 1px solid #2BA84A;
+    border-radius: 50%;
 }
