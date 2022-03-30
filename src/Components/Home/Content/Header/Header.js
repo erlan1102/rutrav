@@ -9,11 +9,7 @@ import {useForm} from "react-hook-form";
 import InputMask from 'react-input-mask'
 
 const Header = () => {
-    const [call, setCall] = useState(false);
-    const [search, setSearch] = useState(false);
-    const {all, setAll} = useContext(CustomContext);
-    const [searchVal, setSearchVal] = useState('');
-    const {cart} = useContext(CustomContext);
+    const {cart,call,setCall,search,setSearch,all, setAll,searchVal,setSearchVal,addReview} = useContext(CustomContext);
     const {
         register,
         formState: {
@@ -23,19 +19,7 @@ const Header = () => {
     } = useForm({
         mode: "onBlur",
     });
-    const addReview = (e) =>{
-        e.preventDefault();
-        axios.post('https://formsubmit.co/erlanisakov60@gmail.com', {
-            name: e.target[0].value,
-            tel: e.target[1].value,
-            question: e.target[2].value
-        }).then(({data})=> {
-            console.log(data);
-            e.target[0].value = '';
-            e.target[1].value = '';
-            e.target[2].value = '';
-        });
-    };
+
 
     useEffect(()=> {
         axios('http://localhost:8080/all')
@@ -138,7 +122,7 @@ const Header = () => {
                             </div>
                             <form action="https://formsubmit.co/erlanisakov60@gmail.com" method="POST" onSubmit={()=> handleSubmit(addReview)}>
                                 <p className='route__text'>Имя*</p>
-                                <input className='header__form-input' type="text" name="name" placeholder='Александр'
+                                <input className='header__form-input' type="text" name="name" placeholder='Ваше имя'
                                        {...register('name', {
                                            required: "Поле обязательно к заполнению!",
                                            minLength: {
@@ -147,7 +131,7 @@ const Header = () => {
                                            }})}/>
                                 <div style={{height: 20}}>{errors?.name && <p className='form__error'>{errors?.name?.message || "Error!"}</p>}</div>
                                 <p className='route__text'>Телефон*</p>
-                                <InputMask id='number' required className='header__form-input' mask="+7 (999) 999-99-99" placeholder='+7 (495) 777-90-87'
+                                <InputMask id='number' required className='header__form-input' mask="+7 (999) 999-99-99" placeholder='+7 (000) 000-00-00'
                                            {...register('number', {
                                                required: "Поле обязательно к заполнению!",
                                                minLength: {
@@ -156,7 +140,7 @@ const Header = () => {
                                                }})}/>
                                 <div style={{height: 20}}>{errors?.number && <p className='form__error'>{errors?.number?.message || "Error!"}</p>}</div>
                                 <p className='route__text'>E-mail*</p>
-                                <input className='header__form-input' type="email" name="email" placeholder='aleksandr@gmail.com'
+                                <input className='header__form-input' type="email" name="email" placeholder='test@gmail.com'
                                        {...register('mail', {
                                            required: "Необходимо заполнить!",
                                            minLength: {

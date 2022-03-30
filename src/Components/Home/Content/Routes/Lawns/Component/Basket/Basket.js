@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 import axios from "axios";
 
 const Basket = () => {
-    const [ware, setWare] = useState([]);
+    const {plusOne, minusOne,setWare} = useContext(CustomContext);
     const params = useParams();
     const {cart, deleteItem, setCart} = useContext(CustomContext);
 
@@ -40,7 +40,12 @@ const Basket = () => {
                         <tr>
                             <td className='basket__info-img basket__info-one'><img src={item.imageUrl} alt={item.title}/></td>
                             <td className='basket__info-name basket__info-two'>{item.title}</td>
-                            <td className='basket__info-sum basket__info-one' >{item.count}</td>
+                            <td className='basket__info-sum basket__info-one'>
+                                <div className='basket__info-summa'>
+                                    <p className='basket__info-minus' onClick={()=> minusOne(item)}>-</p>
+                                    {item.count}
+                                    <p className='basket__info-plus' onClick={()=> plusOne(item)}>+</p></div>
+                            </td>
                             <td className='basket__info-sum basket__info-one'>{item.price}</td>
                             <td className='basket__info-sum basket__info-one'>{item.count * item.price.slice(0, item.price.length - 6)} ₽</td>
                             <td className='basket__info-one'><p onClick={() => deleteItem(item.title)} className='basket__info-delete'><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">

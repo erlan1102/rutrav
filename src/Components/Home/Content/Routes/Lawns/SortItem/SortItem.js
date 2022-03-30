@@ -3,6 +3,7 @@ import axios from "axios";
 import Bunny from '../../../../../../Assets/logo/hare.png'
 import {Link} from "react-router-dom";
 import {useForm} from "react-hook-form";
+import InputMask from 'react-input-mask'
 
 const SortItem = ({path}) => {
     const [search, setSearch] = useState([]);
@@ -58,13 +59,13 @@ const SortItem = ({path}) => {
                                    }})}/>
                         <div style={{height: 20}}>{errors?.name && <p className='form__error'>{errors?.name?.message || "Error!"}</p>}</div>
                         <p className='route__text'>Телефон*</p>
-                        <input className='route__form-input' type="tel" name="tel"
-                               {...register('num', {
-                                   required: "Необходимо заполнить!",
-                                   minLength: {
-                                       value: 2,
-                                       message: 'Минимум 2 символа!'
-                                   }})}/>
+                        <InputMask id='number' required className='route__form-input' mask="+7 (999) 999-99-99" name="tel"
+                                   {...register('num', {
+                                       required: "Поле обязательно к заполнению!",
+                                       minLength: {
+                                           value: 2,
+                                           message: 'Минимум 2 символа!'
+                                       }})}/>
                         <div style={{height: 20}}>{errors?.num && <p className='form__error'>{errors?.num?.message || "Error!"}</p>}</div>
                         <p className='route__text'>E-mail*</p>
                         <input className='route__form-input' type="email" name="email"

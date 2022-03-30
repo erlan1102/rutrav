@@ -112,7 +112,7 @@ const FifthScreen = () => {
                             </div>
                             <form action="https://formsubmit.co/erlanisakov60@gmail.com" method="POST" onSubmit={()=> handleSubmit(addReview)}>
                                 <p className='route__text'>Имя*</p>
-                                <input className='header__form-input' type="text" name="name" placeholder='Александр'
+                                <input className='header__form-input' type="text" name="name" placeholder='Ваше имя'
                                        {...register('name', {
                                            required: "Поле обязательно к заполнению!",
                                            minLength: {
@@ -121,7 +121,7 @@ const FifthScreen = () => {
                                            }})}/>
                                 <div style={{height: 20}}>{errors?.name && <p className='form__error'>{errors?.name?.message || "Error!"}</p>}</div>
                                 <p className='route__text'>Телефон*</p>
-                                <InputMask id='number' required className='header__form-input' mask="+7 (999) 999-99-99" placeholder='+7 (495) 777-90-87'
+                                <InputMask id='number' required className='header__form-input' mask="+7 (999) 999-99-99" placeholder='+7 (000) 000-00-00'
                                            {...register('number', {
                                                required: "Поле обязательно к заполнению!",
                                                minLength: {
@@ -130,7 +130,7 @@ const FifthScreen = () => {
                                                }})}/>
                                 <div style={{height: 20}}>{errors?.number && <p className='form__error'>{errors?.number?.message || "Error!"}</p>}</div>
                                 <p className='route__text'>E-mail*</p>
-                                <input className='header__form-input' type="email" name="email" placeholder='aleksandr@gmail.com'
+                                <input className='header__form-input' type="email" name="email" placeholder='test@gmail.com'
                                        {...register('mail', {
                                            required: "Необходимо заполнить!",
                                            minLength: {
