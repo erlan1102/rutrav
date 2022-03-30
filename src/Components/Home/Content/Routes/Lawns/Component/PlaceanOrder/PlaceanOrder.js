@@ -1,11 +1,10 @@
 import React, {useContext} from 'react';
 import './PlaceanOrder.css'
 import {useForm} from "react-hook-form";
-import axios from "axios";
 import {CustomContext} from "../../../../../../../Context";
 
 const PlaceanOrder = () => {
-    const {cart, deleteItem, setCart} = useContext(CustomContext);
+    const {cart, deleteItem, setCart,addReview} = useContext(CustomContext);
     const {
         register,
         formState: {
@@ -15,19 +14,6 @@ const PlaceanOrder = () => {
     } = useForm({
         mode: "onBlur",
     });
-    const addReview = (e) =>{
-        e.preventDefault();
-        axios.post('https://formsubmit.co/erlanisakov60@gmail.com', {
-            name: e.target[0].value,
-            tel: e.target[1].value,
-            question: e.target[2].value
-        }).then(({data})=> {
-            console.log(data);
-            e.target[0].value = '';
-            e.target[1].value = '';
-            e.target[2].value = '';
-        });
-    };
     return (
         <div className='placeanorder'>
             <div className="container">

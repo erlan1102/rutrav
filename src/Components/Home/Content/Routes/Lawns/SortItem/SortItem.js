@@ -1,12 +1,13 @@
-import React, {useState, useEffect, useContext} from 'react';
+import React, {useEffect, useContext} from 'react';
 import axios from "axios";
 import Bunny from '../../../../../../Assets/logo/hare.png'
 import {Link} from "react-router-dom";
 import {useForm} from "react-hook-form";
 import InputMask from 'react-input-mask'
+import {CustomContext} from "../../../../../../Context";
 
 const SortItem = ({path}) => {
-    const [search, setSearch] = useState([]);
+    const {searchProduct,setSearchProduct,addReview} = useContext(CustomContext);
     const {
         register,
         formState: {
@@ -16,27 +17,15 @@ const SortItem = ({path}) => {
     } = useForm({
         mode: "onBlur",
     });
-    const addReview = (e) =>{
-        e.preventDefault();
-        axios.post('https://formsubmit.co/erlanisakov60@gmail.com', {
-            name: e.target[0].value,
-            tel: e.target[1].value,
-            question: e.target[2].value
-        }).then(({data})=> {
-            console.log(data);
-            e.target[0].value = '';
-            e.target[1].value = '';
-            e.target[2].value = '';
-        });
-    };
+
     useEffect(()=> {
         axios(`http://localhost:8080/${path}`)
-            .then(({data}) => setSearch(data));
+            .then(({data}) => setSearchProduct(data));
     },[]);
     return (
         <div className='route__row'>
             {
-                search.map((item)=>(
+                searchProduct.map((item)=>(
                     <div key={item.id} className='route__box'>
                         <img className='route__box-img' src={item.imageUrl} alt="Lawn"/>
                         <Link to={`/product/${item.title}`}><p className='route__box-title'>{item.title}</p></Link>

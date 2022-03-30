@@ -1,4 +1,4 @@
-import React, {useEffect, useState,useContext} from 'react';
+import React, {useEffect,useContext} from 'react';
 import {CustomContext} from "../../../../../../Context";
 import './Product.css'
 import axios from "axios";
@@ -11,15 +11,12 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const Product = () => {
-    const [ware, setWare] = useState([]);
+    const {ware,setWare,addItem,searchProduct,setSearchProduct,count,setCount} = useContext(CustomContext);
     const params = useParams();
-    const [count, setCount] = useState(1);
-    const {addItem} = useContext(CustomContext);
     SwiperCore.use([Autoplay]);
-    const [search, setSearch] = useState([]);
     useEffect(()=> {
-        axios('http://localhost:8080/branded')
-            .then(({data}) => setSearch(data));
+        axios('http://localhost:8080/perennial')
+            .then(({data}) => setSearchProduct(data));
     },[]);
 
     useEffect(()=> {
@@ -73,7 +70,7 @@ const Product = () => {
                             </div>
                         </div>
                         <div className="third-screen__bottom">
-                            <p className='third-screen__bottom-pop'>Популярные товары</p>
+                            <p className='third-screen__bottom-pop'>Другие товары</p>
                             <Swiper
                                 slidesPerView={3}
                                 spaceBetween={40}
@@ -92,7 +89,7 @@ const Product = () => {
                                 className="mySwiper"
                             >
                                 {
-                                    search.map((item,idx)=> (
+                                    searchProduct.map((item,idx)=> (
                                         <SwiperSlide key={idx}>
                                             <div className='third-screen__bottom-row'>
                                                 <img src={item.imageUrl} alt="Lawn"/>

@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useContext} from 'react';
+import React, {useEffect, useContext} from 'react';
 import {CustomContext} from "../../../../../../../Context";
 import './Basket.css'
 import {useParams} from 'react-router-dom';
@@ -6,9 +6,8 @@ import {Link} from "react-router-dom";
 import axios from "axios";
 
 const Basket = () => {
-    const {plusOne, minusOne,setWare} = useContext(CustomContext);
+    const {plusOne, minusOne,setWare,cart,deleteItem,setCart} = useContext(CustomContext);
     const params = useParams();
-    const {cart, deleteItem, setCart} = useContext(CustomContext);
 
     useEffect(()=> {
         axios(`http://localhost:8080/all?title=${params.title}`)

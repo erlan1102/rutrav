@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React, {useContext} from 'react';
 import './FifthScreen.css';
 import {useForm} from "react-hook-form";
 import InputMask from "react-input-mask";
-import axios from "axios";
+import {CustomContext} from "../../../../../../Context";
 
 const FifthScreen = () => {
-    const [call, setCall] = useState(false);
+    const {call,setCall,addReview} = useContext(CustomContext);
     const {
         register,
         formState: {
@@ -15,19 +15,6 @@ const FifthScreen = () => {
     } = useForm({
         mode: "onBlur",
     });
-    const addReview = (e) =>{
-        e.preventDefault();
-        axios.post('https://formsubmit.co/erlanisakov60@gmail.com', {
-            name: e.target[0].value,
-            tel: e.target[1].value,
-            question: e.target[2].value
-        }).then(({data})=> {
-            console.log(data);
-            e.target[0].value = '';
-            e.target[1].value = '';
-            e.target[2].value = '';
-        });
-    };
     return (
         <section className='fifth-screen'>
             <div className="container">
