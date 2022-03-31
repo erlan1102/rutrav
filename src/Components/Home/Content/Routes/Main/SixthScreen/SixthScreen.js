@@ -11,10 +11,10 @@ const SixthScreen = () => {
             <div className="container">
                     <p className='sixth-screen__title'>Наши клиенты</p>
                     <div className='sixth-screen__row'>
-                        <img src={Logo1} alt="Logo"/>
-                        <img src={Logo2} alt="Logo"/>
-                        <img src={Logo3} alt="Logo"/>
-                        <img src={Logo4} alt="Logo"/>
+                        <img className='sixth-screen__img' src={Logo1} alt="Logo"/>
+                        <img className='sixth-screen__img' src={Logo2} alt="Logo"/>
+                        <img className='sixth-screen__img' src={Logo3} alt="Logo"/>
+                        <img className='sixth-screen__img' src={Logo4} alt="Logo"/>
                     </div>
             </div>
         </section>

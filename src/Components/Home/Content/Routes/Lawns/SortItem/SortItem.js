@@ -35,7 +35,7 @@ const SortItem = ({path}) => {
                 ))
             }
             <div className='route__form'>
-                <div>
+                <div className='route__form-left'>
                     <p className='route__subtitle'>Не нашли нужную травосмесь? Сделаем по вашему составу.</p>
                     <form action="https://formsubmit.co/erlanisakov60@gmail.com" method="POST" onSubmit={()=> handleSubmit(addReview)}>
                         <p className='route__text'>Имя*</p>

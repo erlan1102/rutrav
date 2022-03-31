@@ -186,7 +186,7 @@ const PlaceanOrder = () => {
                                     ))}
                                     </tbody>
                                 </table>
-                                : <p className='basket__not'>Корзина пуста</p> }
+                                : <p className='basket__not'>В корзине пусто</p> }
                         </div>
                     </div>
                     <div className='placeanorder__right'>

@@ -196,6 +196,9 @@
     display: flex;
     align-items: center;
 }
+.route__form-left{
+    width: 50%;
+}
 .route__form-input{
     width: 612px;
     height: 40px;

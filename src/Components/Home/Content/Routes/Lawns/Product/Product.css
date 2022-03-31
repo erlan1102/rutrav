@@ -99,7 +99,7 @@
     color: #333333;
     border: none;
     border-bottom: 1px solid #7D7D7D;
-    margin: 0 0 25px;
+    margin: 0 0 40px;
 }
 .product__sum{
     display: flex;
@@ -112,7 +112,6 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 26px;
-    margin-left: 50px;
-    margin-bottom: 47px;
+    margin: 10px 0 47px 50px;
     color: #FF5F01;
 }

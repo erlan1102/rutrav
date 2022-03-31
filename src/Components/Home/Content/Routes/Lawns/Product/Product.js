@@ -55,11 +55,11 @@ const Product = () => {
                                     </div>
                                     <div>
                                         <div className='product__sum'>
-                                            <div>
+                                            <div className='product__info'>
                                                 <p className='product__subtitle'>Количество (уп, шт):</p>
                                                 <p className='product__subtitle'>Итого:</p>
                                             </div>
-                                            <div>
+                                            <div className='product__buy'>
                                                 <input min={1} value={count} onChange={(e) => setCount(e.target.value)} className='product__input' type="number"/>
                                                 <span className='product__summa'>{ware[0].price.slice(0,ware[0].price.length - 6) * count} ₽</span>
                                             </div>

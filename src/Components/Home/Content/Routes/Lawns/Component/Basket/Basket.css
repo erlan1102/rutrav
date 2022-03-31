@@ -106,6 +106,27 @@
     cursor: pointer;
 }
 .basket__info-one{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    margin-left: 20px;
+}
+.basket__info-two{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    margin-left: 20px;
+}
+.basket__info-three{
+    text-align: center;
     font-family: 'Open Sans',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -136,10 +157,14 @@
 .basket__info-one{
     text-align: center;
     padding: 22px 11px;
-    width: 15%;
+    width: 20%;
 }
 .basket__info-two{
     width: 25%;
+    padding: 22px 11px;
+}
+.basket__info-three{
+    width: 7.5%;
     padding: 22px 11px;
 }
 .basket__input{
